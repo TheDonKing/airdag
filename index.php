@@ -45,7 +45,14 @@
         <!-- Add your site or application content here -->
 
         <div class="header">
+            <div class="logo">
+
+            </div>
             <div class="menu">
+                <div class="menuLogo">
+
+                </div>
+
             </div>
         </div>
 
