@@ -11,7 +11,6 @@
         <meta name="robots" content="all"/>
         <meta name="description" content="Airdag">
         <title>Airdag</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name='yandex-verification' content='6c33212f4dc14e06' />
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -43,19 +42,28 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-
-        <div class="header">
-            <div class="logo">
-
-            </div>
+<div id="allBox">
+    <div class="header">
             <div class="menu">
-                <div class="menuLogo">
-
+                <div class="lineLeft">
                 </div>
-
+                <div class="row">
+                    <div class="menuLogo">
+                </div>
+                <div class="menuLink">
+                    <ul>
+                        <li><a href="#">Авиабилеты</a></li>
+                        <li><a href="#">Отели</a></li>
+                        <li><a href="#">Прокат авто</a></li>
+                        <li><a href="#">Куда поехать</a></li>
+                        <li><a href="#">Жилье в аренду</a></li>
+                        <li><a href="#">Блог</a></li>
+                    </ul>
+                </div>
+                </div>
             </div>
         </div>
-
+</div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
