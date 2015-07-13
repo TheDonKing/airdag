@@ -3,15 +3,14 @@
     <head>
         <!--Created by DonKing
     Base template (without user's data) checked by http://s-dt.ru-->
-        
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>
         <meta name="author" lang="ru" content="s-dt.ru"/>
         <meta name="copyright" content="&copy; DTStudio <?php echo date("Y"); ?> "/>
-        <meta name="keywords" content="Клиника Рамазановых"/>
+        <meta name="keywords" content="Airdag"/>
         <meta name="robots" content="all"/>
-        <meta name="description" content="Клиника Рамазановых">
-        <title>Клиника Рамазановых  </title>
+        <meta name="description" content="Airdag">
+        <title>Airdag</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name='yandex-verification' content='6c33212f4dc14e06' />
 
@@ -33,7 +32,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png">
         <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
         <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png">
-
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -44,7 +43,11 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+
+        <div class="header">
+            <div class="menu">
+            </div>
+        </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
