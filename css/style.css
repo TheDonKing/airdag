@@ -40,40 +40,38 @@
   overflow: hidden;
 }
 /*
-Header
+-- Header
 */
 .header {
-  height: 770px;
+  height: 760px;
   width: 100%;
-  outline: 1px solid red;
   margin: 0 auto;
   background: url("../img/headerbg.jpg") no-repeat;
+  /*
+ --- Меню
+  */
 }
 .header .lineLeft {
   position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
   left: 0;
   top: 0;
-  width: 373px;
+  width: 35%;
+  min-width: 320px;
   height: 132px;
-  background-color: #ffffff;
   z-index: 1;
-}
-.header .logo {
-  width: 20%;
-  height: 132px;
-  float: left;
-  background-color: #ffffff;
 }
 .header .menu {
   width: auto;
   height: 132px;
   background-color: rgba(255, 255, 255, 0.7);
   margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 .header .menu .menuLogo {
-  width: 288px;
+  width: 26%;
   height: 132px;
-  background: #ffffff url("../img/logo.png") no-repeat center;
+  background: url("../img/logo.png") no-repeat scroll center center;
   float: left;
   overflow: hidden;
   z-index: 2;
@@ -81,8 +79,51 @@ Header
 }
 .header .menu .menuLink {
   float: right;
-  width: 57%;
+  width: 74%;
+  position: relative;
+  z-index: 3;
+  padding-top: 72px;
+}
+.header .menu .menuLink ul {
+  margin: 0 auto ;
+}
+.header .menu .menuLink ul li {
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: bottom;
+  margin-left: 3.5656%;
+}
+.header .menu .menuLink ul li:hover {
+  color: #bb2449;
 }
 .header .menu .menuLink ul li a {
-  float: left;
+  text-decoration: none;
+  font: 19.5px PFBeauSansPro-Regular, sans-serif;
+  color: #555555;
+  font: 19px PFBeauSansPro-Regular, sans-serif;
+}
+.header .menu .menuLink ul li a:hover {
+  padding-bottom: 8px;
+  border-bottom: 2px solid #cc2229 ;
+  text-decoration: solid;
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+  color: #bb2449;
+}
+/*
+--- Search
+*/
+.both {
+  clear: both;
+}
+.search {
+  height: 150px;
+  margin-top: 476px;
+}
+.select {
+  height: 570px;
+  width: 100%;
+  background-color: #042656;
 }
