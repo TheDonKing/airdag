@@ -154,3 +154,8 @@
   -webkit-background-clip: @argument;
   background-clip: @argument;
 }
+.animation(@effectname, @duration:1.3s,  @ease:ease-out, @duration2:75ms ) {
+  -webkit-animation: @effectname @duration @ease @duration2;
+  -moz-animation: @effectname @duration @ease @duration2;
+  animation: @effectname @duration @ease @duration2;
+}

@@ -9,13 +9,19 @@
     font-family: "momicons";
     font-style: normal;
     font-weight: normal;
-    src: url("http://cdn2.momondo.net/a-8/assets/fonts/momicons/momicons.svg#momicons") format("svg"), url("http://cdn2.momondo.net/a-8/assets/fonts/momicons/momicons.woff") format("woff"), url("http://cdn2.momondo.net/a-8/assets/fonts/momicons/momicons.eot?#iefix") format("embedded-opentype"), url("http://cdn2.momondo.net/a-8/assets/fonts/momicons/momicons.ttf") format("truetype");
+    src: url("font/momicons/momicons.svg#momocons") format("svg"),
+    url("font/momicons/momicons.woff") format("woff"),
+    url("font/momicons/momicons.eot?#iefix") format("embedded-opentype"),
+    url("font/momicons/momicons.ttf") format("truetype");
 }
 @font-face {
     font-family: "momocons";
     font-style: normal;
     font-weight: normal;
-    src: url("http://cdn2.momondo.net/a-8/assets/fonts/momocons/momocons.svg#momocons") format("svg"), url("http://cdn2.momondo.net/a-8/assets/fonts/momocons/momocons.woff") format("woff"), url("http://cdn2.momondo.net/a-8/assets/fonts/momocons/momocons.eot?#iefix") format("embedded-opentype"), url("http://cdn2.momondo.net/a-8/assets/fonts/momocons/momocons.ttf") format("truetype");
+    src: url("font/momocons/momocons.svg#momocons") format("svg"),
+    url("font/momocons/momocons.woff") format("woff"),
+    url("font/momocons/momocons.eot?#iefix") format("embedded-opentype"),
+    url("font/momocons/") format("truetype");
 }
 .ui-helper-hidden {
     display: none;
@@ -3017,10 +3023,10 @@ img.mfp-img {
     content: "";
 }
 .mui-searchbox .submit {
-    background-color: #fe5766;
+    background-color: #00acec;
     border: 0 none;
-    border-radius: 86px;
-    box-shadow: 0 0 0.001px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    box-shadow: 0 0 0.001px 2px rgba(0, 0, 0, 0.15);
     color: #ffffff;
     cursor: pointer;
     display: block;
