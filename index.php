@@ -905,20 +905,20 @@
             <div class="selectBlockFilter">
                 <div class="selectBlockFilterBox">
                     <ul>
-                        <li><a href="">Все</a></li>
+                        <li><a class="active" href="">Все</a></li>
                         <li><a href="">Где нибудь</a></li>
                         <li><a href="">В любое время</a></li>
                     </ul>
                 </div>
                 <div class="selectBlockFilterBox">
                     <ul>
-                        <li>Мой бюджет</li>
-                        <li><a href="">60000+rub</a></li>
+                        <li>Мой бюджет:</li>
+                        <li><a href="">60.000+RUB</a></li>
                     </ul>
                 </div>
                 <div class="selectBlockFilterBox">
                     <ul>
-                        <li class="select-button"><a href="">Искать</a></li>
+                        <li><a class="select-button" href="">Искать</a></li>
 
                     </ul>
                 </div>

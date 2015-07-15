@@ -7,18 +7,18 @@
   url('font/PFBeauSansPro-Italic/pfbeausanspro-italic.ttf') format('truetype'),
   url('font/PFBeauSansPro-Italic/pfbeausanspro-italic.svg#PFBeauSansPro-Italic') format('svg');
   font-weight: normal;
-  pfbt-ssylep normal;
+  font-style:normal;
 }
 @font-face {
   font-family: 'PFBeauSansPro-Bold';
   src: url('font/PFBeauSansPro-Bold/pfbeausanspro-bold.eot');
   src: url('font/PFBeauSansPro-Bold/pfbeausanspro-bold.eot?#iefix') format('embedded-opentype'),
   url('font/PFBeauSansPro-Bold/pfbeausanspro-bold.woff') format('woff'),
-  url('font/PFBeauSansPro-Bold/pfbeausanspro-bold.woff') format('woff2'),
+  url('font/PFBeauSansPro-Bold/pfbeausanspro-bold.woff2') format('woff2'),
   url('font/PFBeauSansPro-Bold/pfbeausanspro-bold.ttf') format('truetype'),
   url('font/PFBeauSansPro-Bold/pfbeausanspro-bold.svg#PFBeauSansPro-Bold') format('svg');
   font-weight: normal;
-  pfbt-ssylep normal;
+  font-style: normal;
 }
 
 @font-face {
@@ -26,7 +26,7 @@
   src: url('font/PFBeauSansPro-Regular/pfbeausanspro-regular.eot');
   src: url('font/PFBeauSansPro-Regular/pfbeausanspro-regular.eot?#iefix') format('embedded-opentype'),
   url('font/PFBeauSansPro-Regular/pfbeausanspro-regular.woff') format('woff'),
-  url('font/PFBeauSansPro-Regular/pfbeausanspro-regular.woff') format('woff'),
+  url('font/PFBeauSansPro-Regular/pfbeausanspro-regular.woff2') format('woff'),
   url('font/PFBeauSansPro-Regular/pfbeausanspro-regular.ttf') format('truetype'),
   url('font/PFBeauSansPro-Regular/pfbeausanspro-regular.svg#PFBeauSansPro-Regular') format('svg');
   font-weight: normal;
@@ -34,12 +34,12 @@
 }
 @font-face {
   font-family: 'PFBeauSansPro-Light';
-  src: url('font/PFBeauSansPro-Regular/pfbeausanspro-regular.eot');
-  src: url('font/PFBeauSansPro-Regular/pfbeausanspro-regular.eot?#iefix') format('embedded-opentype'),
-  url('font/PFBeauSansPro-Regular/pfbeausanspro-regular.woff') format('woff'),
-  url('font/PFBeauSansPro-Regular/pfbeausanspro-regular.woff') format('woff'),
-  url('font/PFBeauSansPro-Regular/pfbeausanspro-regular.ttf') format('truetype'),
-  url('font/PFBeauSansPro-Regular/pfbeausanspro-regular.svg#PFBeauSansPro-Light') format('svg');
+  src: url('font/PFBeauSansPro-Light/pfbeausanspro-light.eot');
+  src: url('font/PFBeauSansPro-Light/pfbeausanspro-light.eot?#iefix') format('embedded-opentype'),
+  url('font/PFBeauSansPro-Light/pfbeausanspro-light.woff') format('woff'),
+  url('font/PFBeauSansPro-Light/pfbeausanspro-light.woff2') format('woff'),
+  url('font/PFBeauSansPro-Light/pfbeausanspro-light.ttf') format('truetype'),
+  url('font/PFBeauSansPro-Light/pfbeausanspro-light.svg#PFBeauSansPro-Light') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -61,8 +61,11 @@
 .font-base-italic(@size){
   font:@size PFBeauSansPro-Italic, sans-serif;
 }
+.font-base-light(@size){
+  font:@size PFBeauSansPro-Light, sans-serif;
+}
 .outline(@color){
-  outline: 1px solid @color;
+  outline:0px solid @color;
 }
 .margin-paddingOff(){
   margin:0px;
@@ -138,7 +141,6 @@
 
       }
     .menuLink ul li:hover{
-
       color:@color-base;
     }
       .menuLink ul li a{
@@ -177,12 +179,13 @@
   height: 570px;
   width: 100%;
   background-color:@color-base2 ;
+  padding-top: 25px;
 
   .selectBlock{
     margin: 0 auto;
     max-width: 1176px;
     min-width: 768px;
-    height: 486px;
+    height: 761px;
     .outline(#fff);
 
     .selectBlockSearch{
@@ -190,7 +193,8 @@
       height: 182px;
       .outline(#fff643);
       background: url("../img/selecticons/sercch.png") no-repeat center top;
-        h2{
+      padding-top: 25px;
+      h2{
           .margin-paddingOff;
           text-align: center;
           padding-top: 60px;
@@ -381,6 +385,7 @@
 .selectBlockFilter {
   display: inline-block;
   height: auto;
+  margin-top: 60px;
 
   .selectBlockFilterBox{
     float: left;
@@ -398,18 +403,48 @@
      width: 200px;
      .outline(#e6ff35);
   }
+  .selectBlockFilterBox ul {
+    .margin-paddingOff;
+  }
 
   .selectBlockFilterBox ul li{
     display: inline-block;
     text-decoration: none;
     color: #FFFFFF;
+    margin-right: 20px;
+    .font-base-light(19px);
 
-      a{
-        text-decoration: none;
+    a{
+      text-decoration: none;
+      color: #FFFFFF;
+      border:3px solid #fff;
+      .border-radius(10px, 10px, 10px, 10px);
+      padding:15px 30px;
+      .font-base-regular(20px);
+
+
+    }
+      a:hover{
+        border-color:@color-base;
+        color:@color-base;
+        .transition(0.4s, linear);
+      }
+      a.active{
+        border-color: @color-base !important;
+        color: @color-base;
+      }
+      a.select-button{
+        background-color: @color-base;
+        border-color:  @color-base;
         color: #FFFFFF;
-        border: 1px solid #FFFFFF;
-        padding:15px 25px;
-        .font-base-regular(20px);
+        padding:12px 40px ;
+      }
+      a.select-button:hover{
+        border:3px solid #fff;
+        border-color: @color-base !important;
+        color: @color-base;
+        background: none;
+        .transition(0.2s, linear);
       }
   }
 }
