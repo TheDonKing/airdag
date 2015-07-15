@@ -869,35 +869,35 @@
                 <div class="selectBlockIconsBlock">
                     <div>
                         <div class="hi-icon-wrap hi-icon-effect">
-                            <a href="#set-2" class="hi-icon hi-icon-archive">Шопинг</a>
+                            <a href="#set-2" class="hi-icon hi-icon-shop"><span>Шопинг</span></a>
                         </div>
                     </div>
                 </div>
                 <div class="selectBlockIconsBlock">
                     <div>
                         <div class="hi-icon-wrap hi-icon-effect">
-                            <a href="#set-3" class="hi-icon hi-icon-archive">Природа</a>
+                            <a href="#set-3" class="hi-icon hi-icon-nature"><span>Природа</span></a>
                         </div>
                     </div>
                 </div>
                 <div class="selectBlockIconsBlock">
                     <div>
                         <div class="hi-icon-wrap hi-icon-effect">
-                            <a href="#set-4" class="hi-icon hi-icon-archive">Ночная жизнь</a>
+                            <a href="#set-4" class="hi-icon hi-icon-lifenight"><span>Ночная жизнь</span></a>
                         </div>
                     </div>
                 </div>
                 <div class="selectBlockIconsBlock">
                     <div>
                         <div class="hi-icon-wrap hi-icon-effect">
-                            <a href="#set-5" class="hi-icon hi-icon-archive">Город</a>
+                            <a href="#set-5" class="hi-icon hi-icon-sity"><span>Город</span></a>
                         </div>
                     </div>
                 </div>
                 <div class="selectBlockIconsBlock">
                     <div>
                         <div class="hi-icon-wrap hi-icon-effect">
-                            <a href="#set-6" class="hi-icon hi-icon-archive">Лыжный спорт</a>
+                            <a href="#set-6" class="hi-icon hi-icon-scing"><span>Лыжный спорт</span></a>
                         </div>
                     </div>
                 </div>

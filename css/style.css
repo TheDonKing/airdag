@@ -213,6 +213,56 @@
   -o-transition: all 0.8s ease-out;
   transition: all 0.8s ease-out;
 }
+.select .selectBlockIconsBlock div .hi-icon-shop {
+  background: url("../img/selecticons/2.png") no-repeat center;
+}
+.select .selectBlockIconsBlock div .hi-icon-shop:hover {
+  background: url("../img/selecticons/2a.png") no-repeat center;
+  -webkit-transition: all 0.8s ease-out;
+  -moz-transition: all 0.8s ease-out;
+  -o-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}
+.select .selectBlockIconsBlock div .hi-icon-nature {
+  background: url("../img/selecticons/3.png") no-repeat center;
+}
+.select .selectBlockIconsBlock div .hi-icon-nature:hover {
+  background: url("../img/selecticons/3a.png") no-repeat center;
+  -webkit-transition: all 0.8s ease-out;
+  -moz-transition: all 0.8s ease-out;
+  -o-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}
+.select .selectBlockIconsBlock div .hi-icon-lifenight {
+  background: url("../img/selecticons/4.png") no-repeat center;
+}
+.select .selectBlockIconsBlock div .hi-icon-lifenight:hover {
+  background: url("../img/selecticons/4a.png") no-repeat center;
+  -webkit-transition: all 0.8s ease-out;
+  -moz-transition: all 0.8s ease-out;
+  -o-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}
+.select .selectBlockIconsBlock div .hi-icon-sity {
+  background: url("../img/selecticons/5.png") no-repeat center;
+}
+.select .selectBlockIconsBlock div .hi-icon-sity:hover {
+  background: url("../img/selecticons/5a.png") no-repeat center;
+  -webkit-transition: all 0.8s ease-out;
+  -moz-transition: all 0.8s ease-out;
+  -o-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}
+.select .selectBlockIconsBlock div .hi-icon-scing {
+  background: url("../img/selecticons/6.png") no-repeat center;
+}
+.select .selectBlockIconsBlock div .hi-icon-scing:hover {
+  background: url("../img/selecticons/6a.png") no-repeat center;
+  -webkit-transition: all 0.8s ease-out;
+  -moz-transition: all 0.8s ease-out;
+  -o-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}
 /* Effect */
 .hi-icon-effect .hi-icon {
   background: rgba(255, 255, 255, 0.1);
