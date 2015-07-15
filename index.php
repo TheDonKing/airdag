@@ -907,21 +907,19 @@
                     <ul>
                         <li><a href="">Все</a></li>
                         <li><a href="">Где нибудь</a></li>
-                        <li><a href=""></a>В любое время</li>
+                        <li><a href="">В любое время</a></li>
                     </ul>
                 </div>
                 <div class="selectBlockFilterBox">
                     <ul>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
+                        <li>Мой бюджет</li>
+                        <li><a href="">60000+rub</a></li>
                     </ul>
                 </div>
                 <div class="selectBlockFilterBox">
                     <ul>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
+                        <li class="select-button"><a href="">Искать</a></li>
+
                     </ul>
                 </div>
             </div>

@@ -136,6 +136,7 @@
   height: 570px;
   width: 100%;
   background-color: #042656;
+  /* Effect */
 }
 .select .selectBlock {
   margin: 0 auto;
@@ -161,7 +162,8 @@
 }
 .select .selectBlockIcons {
   overflow: visible;
-  margin: 0 auto;
+  display: inline-block;
+  width: 100%;
 }
 .select .selectBlockIconsBlock {
   outline: 1px solid #ffffff;
@@ -263,14 +265,13 @@
   -o-transition: all 0.8s ease-out;
   transition: all 0.8s ease-out;
 }
-/* Effect */
-.hi-icon-effect .hi-icon {
+.select .hi-icon-effect .hi-icon {
   background: rgba(255, 255, 255, 0.1);
   -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
   -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
   transition: transform ease-out 0.1s, background 0.2s;
 }
-.hi-icon-effect .hi-icon:after {
+.select .hi-icon-effect .hi-icon:after {
   top: 0;
   left: 0;
   padding: 0;
@@ -285,7 +286,7 @@
   -ms-transform: scale 0.9;
   transform: scale 0.9;
 }
-.hi-icon-effect .hi-icon:hover {
+.select .hi-icon-effect .hi-icon:hover {
   background: rgba(255, 255, 255, 0.05);
   -webkit-transform: scale(0.93);
   -moz-transform: scale(0.93);
@@ -294,7 +295,7 @@
   transform: scale(0.93);
   color: #fff;
 }
-.hi-icon-effect .hi-icon:hover:after {
+.select .hi-icon-effect .hi-icon:hover:after {
   -webkit-animation: sonarEffect 1.3s ease-out 75ms;
   -moz-animation: sonarEffect 1.3s ease-out 75ms;
   animation: sonarEffect 1.3s ease-out 75ms;
@@ -340,4 +341,35 @@
     transform: scale(1.5);
     opacity: 0;
   }
+}
+.selectBlockFilter {
+  display: inline-block;
+  height: auto;
+}
+.selectBlockFilter .selectBlockFilterBox {
+  float: left;
+}
+.selectBlockFilter .selectBlockFilterBox:nth-child(1) {
+  width: 576px;
+  outline: 1px solid #e6ff35;
+}
+.selectBlockFilter .selectBlockFilterBox:nth-child(2) {
+  width: 400px;
+  outline: 1px solid #e6ff35;
+}
+.selectBlockFilter .selectBlockFilterBox:nth-child(3) {
+  width: 200px;
+  outline: 1px solid #e6ff35;
+}
+.selectBlockFilter .selectBlockFilterBox ul li {
+  display: inline-block;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.selectBlockFilter .selectBlockFilterBox ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  padding: 15px 25px;
+  font: 20px PFBeauSansPro-Regular, sans-serif;
 }
