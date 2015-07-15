@@ -902,7 +902,29 @@
                     </div>
                 </div>
             </div>
-            <div class="selectBlockFilter"></div>
+            <div class="selectBlockFilter">
+                <div class="selectBlockFilterBox">
+                    <ul>
+                        <li><a href="">Все</a></li>
+                        <li><a href="">Где нибудь</a></li>
+                        <li><a href=""></a>В любое время</li>
+                    </ul>
+                </div>
+                <div class="selectBlockFilterBox">
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+                <div class="selectBlockFilterBox">
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 

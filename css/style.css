@@ -160,7 +160,7 @@
   text-transform: uppercase;
 }
 .select .selectBlockIcons {
-  overflow: hidden;
+  overflow: visible;
   margin: 0 auto;
 }
 .select .selectBlockIconsBlock {
