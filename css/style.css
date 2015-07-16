@@ -741,3 +741,60 @@
   float: right;
   height: 389px;
 }
+.promo .promoText .promoTextBoxUp,
+.promo .promoText .promoTextBoxBottom {
+  width: 100%;
+  height: auto;
+  outline: 0px solid #fff626;
+}
+.promo .promoText .promoTextBoxUp p {
+  font: 45px PFBeauSansPro-Regular, sans-serif;
+  color: #fff;
+  margin: 0;
+  letter-spacing: 1.5px;
+  padding: 20px;
+}
+.promo .promoTextBoxBottom {
+  height: auto;
+}
+.promo .promoTextBoxBottom .box1 p {
+  display: inline-block;
+  padding-left: 22px;
+}
+.promo .promoTextBoxBottom .box1 p a {
+  font: 15px PFBeauSansPro-Regular, sans-serif;
+  text-decoration: none;
+  border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.promo .promoTextBoxBottom .box1 p a:hover {
+  font: 15px PFBeauSansPro-Regular, sans-serif;
+  border: none;
+}
+.promo .promoTextBoxBottom .box1 p i {
+  font-size: 30px;
+  color: #FFFFFF;
+  padding-right: 10px;
+}
+.promo .promoTextBoxBottom .box2 p {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.promo .promoTextBoxBottom .box2 p a {
+  font: 15px PFBeauSansPro-Regular, sans-serif;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  color: #FFFFFF;
+  padding-bottom: 1px;
+}
+.promo .promoTextBoxBottom .box2 p a:hover {
+  border: none;
+  font: 15px PFBeauSansPro-Regular, sans-serif;
+  color: #FFFFFF;
+}
+.country {
+  height: 230px;
+  width: 100%;
+  background-color: #042656;
+}

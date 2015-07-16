@@ -769,7 +769,71 @@
      .outline(#fff);
      float:right;
      height:389px;
+
+      .promoTextBoxUp, .promoTextBoxBottom{
+        width: 100%;
+        height: auto;
+        .outline(#fff626);
+      }
+     .promoTextBoxUp p{
+       .font-base-regular(45px);
+       color: #fff;
+       margin: 0;
+       letter-spacing:1.5px;
+       padding: 20px;
+     }
+
    }
+    .promoTextBoxBottom {
+           height: auto;
+      .box1{
+         p{
+           display: inline-block;
+           padding-left: 22px;
+           a{
+             .font-base-regular(15px);
+             text-decoration: none;
+             border-bottom: 1px solid #FFFFFF;
+             color: #FFFFFF;
+             margin-bottom: 10px;
+           }
+           a:hover{
+             .font-base-regular(15px);
+             border:none;
+           }
+         }
+            p i{
+              font-size:30px;
+              color: #FFFFFF;
+              padding-right: 10px;
+            }
+      }
+      .box2{
+        p {
+          padding-left: 20px;
+          padding-top: 15px;
+          a{
+          .font-base-regular(15px);
+            text-decoration: none;
+            border-bottom: 1px solid #fff;
+            color: #FFFFFF;
+            padding-bottom:1px;
+        }
+          a:hover{
+            border: none;
+            .font-base-regular(15px);
+            color: #FFFFFF;
+
+          }
+        }
+      }
+
+    }
+}
+.country{
+  height: 230px;
+  width: 100%;
+  background-color: @color-base2;
 }
 
 
