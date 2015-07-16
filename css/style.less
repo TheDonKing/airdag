@@ -65,7 +65,7 @@
   font:@size PFBeauSansPro-Light, sans-serif;
 }
 .outline(@color){
-  outline:0px solid @color;
+  outline:1px solid @color;
 }
 .margin-paddingOff(){
   margin:0px;
@@ -185,7 +185,7 @@
     margin: 0 auto;
     max-width: 1176px;
     min-width: 768px;
-    height: 761px;
+    height: auto;
     .outline(#fff);
 
     .selectBlockSearch{
@@ -448,3 +448,32 @@
       }
   }
 }
+
+.destinations{
+  height: 1112px;
+  width: 100%;
+  background-color: #f2ffe8;
+  .destinationsContent{
+    max-width: 1176px;
+    min-width: 768px;
+    height: 881px;
+    margin: 0 auto;
+    .outline(#1d36ff);
+      .destinationsContentTitle{
+        width: 100%;
+        height: 140px;
+        .outline(#04ff78);
+        h2{
+        .margin-paddingOff;
+          }
+      }
+      .destinationsContentBlockResult{
+        width: 100%;
+        overflow: hidden;
+        .destinationsContentBlockBox{
+          
+        }
+    }
+  }
+}
+

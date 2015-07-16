@@ -925,6 +925,89 @@
             </div>
         </div>
     </div>
+    <div class="destinations">
+        <div class="destinationsContent">
+            <div class="destinationsContentTitle">
+                <h2>Популярные направления</h2>
+            </div>
+            <div class="destinationsContentBlock">
+                <div class="destinationsContentBlockRow">
+                    <div class="destinationsContentBlockResult">
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                    </div>
+                    <div class="destinationsContentBlockResult">
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                    </div>
+                    <div class="destinationsContentBlockResult">
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                    </div>
+                    <div class="destinationsContentBlockResult">
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                    </div>
+                    <div class="destinationsContentBlockResult">
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container"></div>
+                        </div>
+                        <div class="destinationsContentBlockBox">
+                            <div class="container">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </div>
 

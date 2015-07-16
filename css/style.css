@@ -143,13 +143,13 @@
   margin: 0 auto;
   max-width: 1176px;
   min-width: 768px;
-  height: 761px;
-  outline: 0px solid #ffffff;
+  height: auto;
+  outline: 1px solid #ffffff;
 }
 .select .selectBlock .selectBlockSearch {
   width: 100%;
   height: 182px;
-  outline: 0px solid #fff643;
+  outline: 1px solid #fff643;
   background: url("../img/selecticons/sercch.png") no-repeat center top;
   padding-top: 25px;
 }
@@ -168,7 +168,7 @@
   width: 100%;
 }
 .select .selectBlockIconsBlock {
-  outline: 0px solid #ffffff;
+  outline: 1px solid #ffffff;
   height: 191px;
   float: left;
   width: 16.66666666666667%;
@@ -354,15 +354,15 @@
 }
 .selectBlockFilter .selectBlockFilterBox:nth-child(1) {
   width: 576px;
-  outline: 0px solid #e6ff35;
+  outline: 1px solid #e6ff35;
 }
 .selectBlockFilter .selectBlockFilterBox:nth-child(2) {
   width: 400px;
-  outline: 0px solid #e6ff35;
+  outline: 1px solid #e6ff35;
 }
 .selectBlockFilter .selectBlockFilterBox:nth-child(3) {
   width: 200px;
-  outline: 0px solid #e6ff35;
+  outline: 1px solid #e6ff35;
 }
 .selectBlockFilter .selectBlockFilterBox ul {
   margin: 0px;
@@ -424,4 +424,29 @@
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
+}
+.destinations {
+  height: 1112px;
+  width: 100%;
+  background-color: #f2ffe8;
+}
+.destinations .destinationsContent {
+  max-width: 1176px;
+  min-width: 768px;
+  height: 881px;
+  margin: 0 auto;
+  outline: 1px solid #1d36ff;
+}
+.destinations .destinationsContent .destinationsContentTitle {
+  width: 100%;
+  height: 140px;
+  outline: 1px solid #04ff78;
+}
+.destinations .destinationsContent .destinationsContentTitle h2 {
+  margin: 0px;
+  padding: 0px;
+}
+.destinations .destinationsContent .destinationsContentBlockResult {
+  width: 100%;
+  overflow: hidden;
 }
