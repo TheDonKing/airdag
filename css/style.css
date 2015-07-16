@@ -144,12 +144,12 @@
   max-width: 1176px;
   min-width: 768px;
   height: auto;
-  outline: 1px solid #ffffff;
+  outline: 0px solid #ffffff;
 }
 .select .selectBlock .selectBlockSearch {
   width: 100%;
   height: 182px;
-  outline: 1px solid #fff643;
+  outline: 0px solid #fff643;
   background: url("../img/selecticons/sercch.png") no-repeat center top;
   padding-top: 25px;
 }
@@ -168,7 +168,7 @@
   width: 100%;
 }
 .select .selectBlockIconsBlock {
-  outline: 1px solid #ffffff;
+  outline: 0px solid #ffffff;
   height: 191px;
   float: left;
   width: 16.66666666666667%;
@@ -348,23 +348,33 @@
   display: inline-block;
   height: auto;
   margin-top: 60px;
+  width: 100%;
 }
 .selectBlockFilter .selectBlockFilterBox {
   float: left;
 }
 .selectBlockFilter .selectBlockFilterBox:nth-child(1) {
-  width: 576px;
-  outline: 1px solid #e6ff35;
+  width: 50%;
+  display: inline-block;
+  height: 100px;
+  outline: 0px solid #e6ff35;
 }
 .selectBlockFilter .selectBlockFilterBox:nth-child(2) {
-  width: 400px;
-  outline: 1px solid #e6ff35;
+  width: 35%;
+  height: 100px;
+  outline: 0px solid #e6ff35;
 }
 .selectBlockFilter .selectBlockFilterBox:nth-child(3) {
-  width: 200px;
-  outline: 1px solid #e6ff35;
+  width: 15%;
+  float: right;
+  height: 100px;
+  outline: 0px solid #e6ff35;
 }
 .selectBlockFilter .selectBlockFilterBox ul {
+  width: 100%;
+  min-width: 176px;
+  margin: 0;
+  padding: 0;
   margin: 0px;
   padding: 0px;
 }
@@ -372,13 +382,19 @@
   display: inline-block;
   text-decoration: none;
   color: #FFFFFF;
-  margin-right: 20px;
+  float: left;
+  font: 21px PFBeauSansPro-Light, sans-serif;
+  padding-right: 24px;
   font: 19px PFBeauSansPro-Light, sans-serif;
+}
+.selectBlockFilter .selectBlockFilterBox ul li span {
+  display: block;
+  padding-top: 18px;
 }
 .selectBlockFilter .selectBlockFilterBox ul li a {
   text-decoration: none;
   color: #FFFFFF;
-  border: 3px solid #fff;
+  border: 3px solid #ffffff;
   -webkit-border-top-right-radius: 10px;
   -webkit-border-bottom-right-radius: 10px;
   -webkit-border-bottom-left-radius: 10px;
@@ -393,8 +409,9 @@
   border-top-left-radius: 10px;
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
+  padding: 15px 10%;
   background-clip: padding-box;
-  padding: 15px 30px;
+  float: left;
   font: 20px PFBeauSansPro-Regular, sans-serif;
 }
 .selectBlockFilter .selectBlockFilterBox ul li a:hover {
@@ -408,12 +425,14 @@
 .selectBlockFilter .selectBlockFilterBox ul li a.active {
   border-color: #bb2449 !important;
   color: #bb2449;
+  padding: 15px 25%;
 }
 .selectBlockFilter .selectBlockFilterBox ul li a.select-button {
   background-color: #bb2449;
   border-color: #bb2449;
-  color: #FFFFFF;
-  padding: 12px 40px ;
+  color: #ffffff;
+  padding: 12px 40px;
+  text-align: center;
 }
 .selectBlockFilter .selectBlockFilterBox ul li a.select-button:hover {
   border: 3px solid #fff;
@@ -435,12 +454,24 @@
   min-width: 768px;
   height: auto;
   margin: 0 auto;
-  outline: 1px solid #1d36ff;
+  outline: 0px solid #1d36ff;
+}
+.destinations .destinationsContent .destinationsContentBlockView {
+  height: 90px;
+}
+.destinations .destinationsContent .destinationsContentBlockView p {
+  font: 16px PFBeauSansPro-Regular, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding-top: 25px;
+}
+.destinations .destinationsContent .destinationsContentBlockView p a {
+  color: #bb2449;
 }
 .destinations .destinationsContent .destinationsContentTitle {
   width: 100%;
-  height: 140px;
-  outline: 1px solid #04ff78;
+  height: auto;
+  outline: 0px solid #04ff78;
 }
 .destinations .destinationsContent .destinationsContentTitle h2 {
   font: 30px PFBeauSansPro-Regular, sans-serif;
@@ -448,7 +479,9 @@
   text-align: center;
   color: #042656;
   margin: 0;
-  padding: 5% 0px;
+  padding: 5% 0;
+  display: inline-block;
+  width: 100%;
 }
 .destinations .destinationsContent .destinationsContentBlockResult {
   width: 100%;
@@ -460,7 +493,7 @@
   height: 286px ;
   margin: 0.25%;
   overflow: hidden;
-  outline: 1px solid #ff4df0;
+  outline: 0px solid #ff4df0;
 }
 .destinations .destinationsContent .destinationsContentBlockResult .destinationsContentBlockBox .container {
   width: 100%;
@@ -506,7 +539,7 @@
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(187, 36, 73, 0.3);
   background: transparent;
   margin: 20px 40px 0px 40px;
   -webkit-transform: scale(10);
@@ -617,21 +650,6 @@
   -ms-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
-.destinations .destinationsContent .destinationsContentBlockResult .destinationsContentBlockBox .container .view-sixth:hover p {
-  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
-  opacity: 1;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -o-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition-delay: 0.2s;
-  -moz-transition-delay: 0.2s;
-  -o-transition-delay: 0.2s;
-  -ms-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
 .destinations .destinationsContent .destinationsContentBlockResult .destinationsContentBlockBox .container .view-sixth:hover a.info {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
@@ -676,7 +694,7 @@
   position: relative;
   font-size: 17px;
   padding: 10px;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(4, 38, 86, 0.8);
   margin: 20px 0 0 0;
 }
 .destinations .destinationsContent .destinationsContentBlockResult .destinationsContentBlockBox .container .view a.info {
@@ -695,4 +713,31 @@
   -webkit-box-shadow: 0 0 5px #000;
   -moz-box-shadow: 0 0 5px #000;
   box-shadow: 0 0 5px #000;
+}
+.promo {
+  display: block;
+  height: 389px ;
+  width: 100%;
+  background-color: #bb2449;
+}
+.promo .row {
+  overflow: visible;
+}
+.promo .promoBlockMobile {
+  position: relative;
+  height: 389px;
+  outline: 0px solid #ffffff;
+  width: 50%;
+  float: left;
+}
+.promo .promoBlockMobile img {
+  position: absolute;
+  top: -45px;
+  right: 10px;
+}
+.promo .promoText {
+  width: 50%;
+  outline: 0px solid #ffffff;
+  float: right;
+  height: 389px;
 }

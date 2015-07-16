@@ -912,7 +912,7 @@
                 </div>
                 <div class="selectBlockFilterBox">
                     <ul>
-                        <li>Мой бюджет:</li>
+                        <li><span>Мой бюджет:</span></li>
                         <li><a href="">60.000+RUB</a></li>
                     </ul>
                 </div>
@@ -1189,8 +1189,23 @@
                     </div>
                 </div>
             </div>
+            <div class="destinationsContentBlockView">
+                <p><a class="view" href="">Подробнее</a></p>
+            </div>
         </div>
     </div>
+<div class="promo">
+    <div class="row">
+        <div class="promoBlockMobile">
+            <img src="img/iphone.png" alt=""/>
+        </div>
+        <div class="promoText">
+            <div class="promoTextBoxUp"></div>
+            <div class="promoTextBoxBottom"></div>
+        </div>
+    </div>
+
+</div>
 
 
 </div>
