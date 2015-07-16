@@ -934,7 +934,19 @@
                 <div class="destinationsContentBlockRow">
                     <div class="destinationsContentBlockResult">
                         <div class="destinationsContentBlockBox">
-                            <div class="container"></div>
+                            <div class="container">
+                                <div class="view view-sixth">
+                                    <h3>Стамбул</h3>
+                                    <img src="img/view/1.jpg" />
+
+                                    <div class="mask">
+                                        <h2>Стамбул</h2>
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                                        <a href="#" class="info">Read More</a>
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="destinationsContentBlockBox">
                             <div class="container"></div>
@@ -1008,6 +1020,7 @@
             </div>
         </div>
     </div>
+
 
 </div>
 
