@@ -1197,7 +1197,10 @@
 <div class="promo">
     <div class="row">
         <div class="promoBlockMobile">
-            <img src="img/iphone.png" alt=""/>
+            <div>
+                <img src="img/iphone.png" alt=""/>
+            </div>
+
         </div>
         <div class="promoText">
             <div class="promoTextBoxUp">
@@ -1220,10 +1223,78 @@
 </div>
     <div class="country">
         <div class="row">
-            <div class="box"></div>
-            <div class="box2"></div>
+            <div class="box-1">
+                <div>
+                    <p>Топ-10 стран</p>
+                    <a href="">Авиабилеты в Россию, Европа</a><br/>
+                    <a href="">Авиабилеты в Таиланд, Азия</a><br/>
+                    <a href="">Авиабилеты в Италию, Европа</a><br/>
+                    <a href="">Авиабилеты в Испанию, Европа</a><br/>
+                    <a href="">Авиабилеты в Германию, Европа</a><br/>
+                </div>
+                <div>
+                    <a href="">Авиабилеты в Турцию, Европа</a><br/>
+                    <a href="">Авиабилеты во Францию, Европа</a><br/>
+                    <a href="">Авиабилеты в Чехию, Европа</a><br/>
+                    <a href="">Авиабилеты в США, Северная Америка</a><br/>
+                    <a href="">Авиабилеты в Индию, Азия</a><br/>
+                </div>
+            </div>
+            <div class="box-2">
+                <div>
+                    <p>Топ-10 городов</p>
+                    <a href="">Авиабилеты в Москву, Россия</a><br/>
+                    <a href="">Авиабилеты в Бангкок, Таиланд</a><br/>
+                    <a href="">Авиабилеты в Пхукет, Таиланд</a><br/>
+                    <a href="">Авиабилеты в Санкт-Петербург, Россия</a><br/>
+                    <a href="">Авиабилеты в Стамбул, Турция</a><br/>
+                </div>
+                <div>
+                    <a href="">Авиабилеты в Барселону, Испания</a><br/>
+                    <a href="">Авиабилеты в Симферополь, Крым</a><br/>
+                    <a href="">Авиабилеты в Прагу, Чехия</a><br/>
+                    <a href="">Авиабилеты в Париж, Франция</a><br/>
+                    <a href="">Авиабилеты в Рим, Италия</a><br/>
+                </div>
+            </div>
         </div>
     </div>
+    <div class="mailResponder">
+        <div class="row">
+            <div class="box">
+                <div>
+                    <p>Подпишитесь на нашу рассылку</p><span>Получать вдохновение для путешествий, советы и лучшие предложения от DAGAIR:</span>
+                </div>
+                </div>
+            <div class="box">
+                <div>
+                    <form action="#" method="post">
+                        <input type="email" placeholder="Введите свой e-mail" name="mailresponder"/>
+                        <input type="submit" value="Подписаться"/>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<div class="footer">
+    <div class="row">
+        <div class="footerLogo">
+
+        </div>
+        <div class="footerLink">
+            <a href="">О компании</a>
+            <a href="">Вакансии</a>
+            <a href="">Условия пользования</a>
+            <a href="">Конфиденциальность</a><br/>
+            <a href="">Конфиденциальность и Cookies</a>
+            <a href="">Авиакомпании</a>
+            <a href="">Мобильные приложения</a>
+        </div>
+
+    </div>
+
+</div>
 
 </div>
 

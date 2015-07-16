@@ -92,6 +92,13 @@
   -ms-transform: @arguments;
   transform: @arguments;
 }
+.transition-delay(@duration){
+  -webkit-transition-delay: @duration;
+  -moz-transition-delay: @duration;
+  -o-transition-delay: @duration;
+  -ms-transition-delay: @duration;
+  transition-delay: @duration;
+}
 .rotation(@deg:5deg){
   .transform(rotate(@deg));
 }

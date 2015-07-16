@@ -35,7 +35,7 @@
     More info at: http://lesselements.com
   ---------------------------------------------------*/
 .row {
-  width: 1176px;
+  max-width: 1176px;
   min-width: 980px;
   margin: 0 auto;
   display: block;
@@ -107,7 +107,6 @@
   text-decoration: none;
   font: 19.5px PFBeauSansPro-Regular, sans-serif;
   color: #555555;
-  font: 19px PFBeauSansPro-Regular, sans-serif;
 }
 .header .menu .menuLink ul li a:hover {
   padding-bottom: 8px;
@@ -195,6 +194,10 @@
   position: relative;
   z-index: 1;
   color: #fff;
+  -webkit-transition: all 0.8s ease-out;
+  -moz-transition: all 0.8s ease-out;
+  -o-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
 }
 .select .selectBlockIconsBlock div .hi-icon:after {
   pointer-events: none;
@@ -212,60 +215,36 @@
 }
 .select .selectBlockIconsBlock div .hi-icon-archive:hover {
   background: url("../img/selecticons/1a.png") no-repeat center;
-  -webkit-transition: all 0.8s ease-out;
-  -moz-transition: all 0.8s ease-out;
-  -o-transition: all 0.8s ease-out;
-  transition: all 0.8s ease-out;
 }
 .select .selectBlockIconsBlock div .hi-icon-shop {
   background: url("../img/selecticons/2.png") no-repeat center;
 }
 .select .selectBlockIconsBlock div .hi-icon-shop:hover {
   background: url("../img/selecticons/2a.png") no-repeat center;
-  -webkit-transition: all 0.8s ease-out;
-  -moz-transition: all 0.8s ease-out;
-  -o-transition: all 0.8s ease-out;
-  transition: all 0.8s ease-out;
 }
 .select .selectBlockIconsBlock div .hi-icon-nature {
   background: url("../img/selecticons/3.png") no-repeat center;
 }
 .select .selectBlockIconsBlock div .hi-icon-nature:hover {
   background: url("../img/selecticons/3a.png") no-repeat center;
-  -webkit-transition: all 0.8s ease-out;
-  -moz-transition: all 0.8s ease-out;
-  -o-transition: all 0.8s ease-out;
-  transition: all 0.8s ease-out;
 }
 .select .selectBlockIconsBlock div .hi-icon-lifenight {
   background: url("../img/selecticons/4.png") no-repeat center;
 }
 .select .selectBlockIconsBlock div .hi-icon-lifenight:hover {
   background: url("../img/selecticons/4a.png") no-repeat center;
-  -webkit-transition: all 0.8s ease-out;
-  -moz-transition: all 0.8s ease-out;
-  -o-transition: all 0.8s ease-out;
-  transition: all 0.8s ease-out;
 }
 .select .selectBlockIconsBlock div .hi-icon-sity {
   background: url("../img/selecticons/5.png") no-repeat center;
 }
 .select .selectBlockIconsBlock div .hi-icon-sity:hover {
   background: url("../img/selecticons/5a.png") no-repeat center;
-  -webkit-transition: all 0.8s ease-out;
-  -moz-transition: all 0.8s ease-out;
-  -o-transition: all 0.8s ease-out;
-  transition: all 0.8s ease-out;
 }
 .select .selectBlockIconsBlock div .hi-icon-scing {
   background: url("../img/selecticons/6.png") no-repeat center;
 }
 .select .selectBlockIconsBlock div .hi-icon-scing:hover {
   background: url("../img/selecticons/6a.png") no-repeat center;
-  -webkit-transition: all 0.8s ease-out;
-  -moz-transition: all 0.8s ease-out;
-  -o-transition: all 0.8s ease-out;
-  transition: all 0.8s ease-out;
 }
 .select .hi-icon-effect .hi-icon {
   background: rgba(255, 255, 255, 0.1);
@@ -730,7 +709,14 @@
   width: 50%;
   float: left;
 }
-.promo .promoBlockMobile img {
+.promo .promoBlockMobile div {
+  margin: 0 auto;
+  width: 476px;
+  height: 383px;
+  position: relative;
+}
+.promo .promoBlockMobile div img {
+  display: block;
   position: absolute;
   top: -45px;
   right: 10px;
@@ -769,7 +755,6 @@
   margin-bottom: 10px;
 }
 .promo .promoTextBoxBottom .box1 p a:hover {
-  font: 15px PFBeauSansPro-Regular, sans-serif;
   border: none;
 }
 .promo .promoTextBoxBottom .box1 p i {
@@ -790,11 +775,131 @@
 }
 .promo .promoTextBoxBottom .box2 p a:hover {
   border: none;
-  font: 15px PFBeauSansPro-Regular, sans-serif;
   color: #FFFFFF;
 }
 .country {
   height: 230px;
   width: 100%;
   background-color: #042656;
+}
+.country .box-1,
+.country .box-2 {
+  float: left;
+  height: 230px;
+  width: 50%;
+  outline: 0px solid #ffffff;
+}
+.country .box-1 a,
+.country .box-2 a {
+  color: #fff;
+  text-decoration: none;
+  font: 15px PFBeauSansPro-Regular, sans-serif;
+  display: inline-table;
+  padding-bottom: 2px;
+  overflow: hidden;
+}
+.country .box-1 a:hover,
+.country .box-2 a:hover {
+  color: #f3d7de;
+  border-bottom: 1px dashed #f3d7de;
+}
+.country .box-1 div,
+.country .box-2 div {
+  outline: 0px solid #ffffff;
+  height: 230px;
+  width: 50%;
+  float: left;
+}
+.country .box-1 div p,
+.country .box-2 div p {
+  font: 15px PFBeauSansPro-Regular, sans-serif;
+  color: #bb2449;
+}
+.country .box-1 div:nth-child(2),
+.country .box-2 div:nth-child(2) {
+  padding-top: 49px;
+}
+.mailResponder {
+  background-color: #003f7b;
+  width: 100%;
+  height: 123px;
+}
+.mailResponder .box {
+  width: 50%;
+  float: left;
+  height: 123px;
+  max-width: 588px;
+  outline: 0px solid #ffffff;
+}
+.mailResponder .box div {
+  height: 48px;
+  width: 100%;
+  outline: 0px solid #ffffff;
+  margin-top: 36px;
+  max-width: 100%;
+}
+.mailResponder .box div form {
+  width: 100%;
+}
+.mailResponder .box div form input {
+  float: left;
+}
+.mailResponder .box div form input[type="email"] {
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.7);
+  color: #614f44;
+  font: 15px PFBeauSansPro-Regular, sans-serif;
+  height: 48px;
+  padding: 0 8px 0 20px;
+  width: 60%;
+  margin-right: 28px;
+}
+.mailResponder .box div form input[type="submit"] {
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: #bb2449;
+  font: 15px PFBeauSansPro-Regular, sans-serif;
+  height: 48px;
+  padding: 0 8px 0 20px;
+  width: 25%;
+}
+.mailResponder .box div form input[type="submit"]:hover {
+  background-color: #a70f34;
+}
+.mailResponder .box div p {
+  font: 32px PFBeauSansPro-Regular, sans-serif;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.mailResponder .box div span {
+  font: 14px PFBeauSansPro-Regular, sans-serif;
+  color: #FFFFFF;
+}
+.footer {
+  height: 203px;
+  width: 100%;
+  background-color: #00112a;
+}
+.footer .footerLogo {
+  background: url("../img/logofooter.png") no-repeat scroll center center;
+  width: 25%;
+  height: 203px;
+  float: left;
+}
+.footer .footerLink {
+  padding-top: 70px;
+  float: right;
+  height: 203px;
+  width: 75%;
+}
+.footer .footerLink a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.footer .footerLink a:hover {
+  border-bottom: 1px dashed #FFFFFF;
 }
