@@ -903,3 +903,13 @@
 .footer .footerLink a:hover {
   border-bottom: 1px dashed #FFFFFF;
 }
+/*
+-- Стили для Flighsearch
+*/
+.flighsearch {
+  height: 1500px;
+  background-color: #042656;
+}
+.flighsearch .row {
+  outline: 0px solid red;
+}
