@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="search">
 <div class="container">
 <div id="Content_ctl02_SearchFormv8_SearchBox" class="mui-searchbox mui-searchbox-flights">
@@ -784,3 +785,12 @@
 </div>
 </div>
 </div>
+=======
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Марат
+ * Date: 17.07.2015
+ * Time: 14:40
+ */ 
+>>>>>>> ba4646dddbcfc35ba2057b8ab6571d25d6be148b
