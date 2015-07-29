@@ -5,6 +5,8 @@
 <script src="js/search/prototype.js"></script>
 <script src="js/search/js_66297fab_min_9.js"></script>
 <script src="js/search/js_563164d8_min_9.js"></script>
+
+
 <script type="text/javascript">
     //<![CDATA[
     FastInit.addOnLoad(-1000, function(){GCurrency = new Currency('RUB', {'ARS':{code:'ARS',name:'Argentina Pesos',symbol:null,format:null,rate:10.1599},'AUD':{code:'AUD',name:'Австралийский доллар',symbol:null,format:null,rate:1.4929},'BOB':{code:'BOB',name:'Bolivia Boliviano',symbol:null,format:null,rate:7.8636},'BRL':{code:'BRL',name:'Бразильский реал',symbol:null,format:null,rate:3.5055},'GBP':{code:'GBP',name:'Фунт стерлингов [Соединенного Королевства]',symbol:'£',format:'£{0}',rate:0.7143},'CAD':{code:'CAD',name:'Канадский доллар',symbol:null,format:null,rate:1.4101},'CLP':{code:'CLP',name:'Chile Pesos',symbol:null,format:null,rate:716.256},'CNY':{code:'CNY',name:'Китайский юань',symbol:null,format:null,rate:6.7916},'COP':{code:'COP',name:'Colombia Pesos',symbol:null,format:null,rate:3014.0801},'CRC':{code:'CRC',name:'Costa Rica Colones',symbol:null,format:null,rate:610.001},'CZK':{code:'CZK',name:'Чешская крона',symbol:null,format:null,rate:27.1201},'DKK':{code:'DKK',name:'Датская крона',symbol:'kr.',format:'kr. {0}',rate:7.463},'DOP':{code:'DOP',name:'Dominican Republic Pesos',symbol:null,format:null,rate:50.656},'SVC':{code:'SVC',name:'El Salvador Colon',symbol:null,format:null,rate:9.8895},'AED':{code:'AED',name:'Дирхам ОАЭ',symbol:null,format:null,rate:4.0712},'EUR':{code:'EUR',name:'Евро',symbol:'€',format:'€{0}',rate:1},'GTQ':{code:'GTQ',name:'Guatemala Quetzal',symbol:null,format:null,rate:8.6913},'HNL':{code:'HNL',name:'Honduras Lempira',symbol:null,format:null,rate:24.6298},'HKD':{code:'HKD',name:'Гонконгский доллар',symbol:null,format:null,rate:8.5915},'HUF':{code:'HUF',name:'Венгерский форинт',symbol:null,format:null,rate:311.613},'ISK':{code:'ISK',name:'Исландская крона',symbol:null,format:null,rate:148.084},'INR':{code:'INR',name:'Индийская рупия',symbol:null,format:null,rate:70.3253},'MXN':{code:'MXN',name:'Мексиканское песо',symbol:null,format:null,rate:17.4611},'NZD':{code:'NZD',name:'Новозеландский доллар',symbol:null,format:null,rate:1.6518},'NIO':{code:'NIO',name:'Nicaragua Cordoba',symbol:null,format:null,rate:30.1893},'NOK':{code:'NOK',name:'Норвежская крона',symbol:'kr.',format:'kr. {0}',rate:8.9205},'PAB':{code:'PAB',name:'Panama Balboa',symbol:null,format:null,rate:1.1083},'PYG':{code:'PYG',name:'Paraguay Guarani',symbol:null,format:null,rate:5899.6401},'PEN':{code:'PEN',name:'Peru Nuevos Soles',symbol:null,format:null,rate:3.5826},'PLN':{code:'PLN',name:'Польский злотый',symbol:null,format:null,rate:4.1628},'RON':{code:'RON',name:'Новый румынский лей',symbol:null,format:null,rate:4.4435},'RUB':{code:'RUB',name:'Российский рубль',symbol:null,format:null,rate:62.7876},'SGD':{code:'SGD',name:'Сингапурский доллар',symbol:null,format:null,rate:1.5007},'ZAR':{code:'ZAR',name:'Южноафриканский рэнд',symbol:null,format:null,rate:13.8255},'SEK':{code:'SEK',name:'Шведская крона',symbol:'kr.',format:'{0} kr.',rate:9.3815},'CHF':{code:'CHF',name:'Швейцарский франк',symbol:null,format:null,rate:1.0471},'TWD':{code:'TWD',name:'Новый тайваньский доллар',symbol:null,format:null,rate:34.4217},'THB':{code:'THB',name:'Тайский бат',symbol:null,format:null,rate:37.7314},'TRY':{code:'TRY',name:'Турецкая лира',symbol:null,format:null,rate:2.9491},'UAH':{code:'UAH',name:'Украинская гривна',symbol:null,format:null,rate:24.6548},'UYU':{code:'UYU',name:'Uruguay Peso',symbol:null,format:null,rate:31.1629},'USD':{code:'USD',name:'Доллар США',symbol:'$',format:'${0}',rate:1.1082},'VEF':{code:'VEF',name:'Venezuela Bolivares Fuertes',symbol:null,format:null,rate:6.9986}});GCurrency.notify();});var ClientIDs={};
@@ -28,4 +30,26 @@
         e.src='https://www.google-analytics.com/analytics.js';
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+</script>
+<!-- Flighsearch-раздел-->
+<script type="text/javascript" src="http://aeroport.ru/bitrix/templates/point-of-sale-2014/js/jquery-1.7.2.min.js?1386231022"></script>
+<script src="js/flightsearch/easyResponsiveTabs.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#horizontalTab').easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            fit: true,   // 100% fit in a container
+            closed: 'accordion', // Start closed if in accordion view
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#tabInfo');
+                var $name = $('span', $info);
+
+                $name.text($tab.text());
+
+                $info.show();
+            }
+        });
+    });
 </script>
