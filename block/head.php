@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!--Created by DonKing
     Base template (without user's data) checked by http://s-dt.ru-->
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -34,12 +33,6 @@
         <link rel="stylesheet" href="css/search.css">
         <!-- Libs -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-=======
+
 <?php
-/**
- * Created by PhpStorm.
- * User: Марат
- * Date: 17.07.2015
- * Time: 15:05
- */ 
->>>>>>> ba4646dddbcfc35ba2057b8ab6571d25d6be148b
+
