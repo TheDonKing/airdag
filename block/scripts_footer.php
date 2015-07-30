@@ -30,7 +30,7 @@
     ga('create','UA-XXXXX-X','auto');ga('send','pageview');
 </script>
 <!-- Flighsearch-раздел-->
-
+	<script src="js/flightsearch/easyResponsiveTabs.js" type="text/javascript"></script>
 <script type="text/javascript">
     $(document).ready(function () {
         $('#horizontalTab').easyResponsiveTabs({
