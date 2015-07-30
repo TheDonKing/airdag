@@ -33,6 +33,7 @@
         <link rel="stylesheet" href="css/search.css">
         <!-- Libs -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	<script src="js/flightsearch/easyResponsiveTabs.js" type="text/javascript"></script>
 
 <?php
 
