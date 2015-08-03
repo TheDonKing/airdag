@@ -9,7 +9,7 @@
         <![endif]-->
         <!-- Add your site or application content here -->
 <div id="allBox">
-    <div class="header">
+    <div class="header_flightsearch">
     <?php include_once ("block/menu.php"); ?>
         <div class="both"></div>
     <?php include_once ("block/searchbox.php"); ?>
