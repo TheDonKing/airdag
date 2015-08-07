@@ -194,7 +194,6 @@
       overflow: hidden;
       z-index: 2;
       position: relative;
-       position: relative;
     }
     .menuLink {
       float: right;
@@ -1121,6 +1120,7 @@ border-bottom: 1px dashed #FFFFFF;
   }
 
   .white .e_airticket_info table{
+
     color: #333333;
   }
 
@@ -1789,6 +1789,142 @@ border-bottom: 1px dashed #FFFFFF;
   }
 
 }
+/* ==========================================================================
+   FLIGHT SEARCH
+   ========================================================================== */
+.flight-section{
+  width: 100%;
+  min-height: 164px;
+  .outline(red);
+  background: #414752 url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIj4KCTxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgoJCTxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM0YzUzNjEiIC8+CgkJPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMmQzMDM4IiAvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOnVybCgjZ3JhZCkiLz4KPC9zdmc+) no-repeat;
+  background: -moz-linear-gradient(top, #4c5361 0%, #2d3038 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c5361), color-stop(100%,#2d3038)); /* webkit */
+  background: -o-linear-gradient(top, #4c5361 0%, #2d3038 100%);  /* opera */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c5361', endColorstr='#2d3038',GradientType=0 ); zoom: 1;
+
+  .sectionTitle {
+  .outline(red);
+  color: #FFF;
+  text-align: center;
+  position: relative;
+  height: 22px;
+}
+.sectionLogos {
+  .outline(red);
+  height: 54px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.sectionScrollLogos{
+  .outline(red);
+  position: relative;
+  height: 54px;
+  width: 100%;
+  .getclick{
+    width:14.2857142857143% ;
+    .outline(red);
+    box-sizing: border-box;
+    height: 54px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    .cellBorder{
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      /* position: static; */
+      width: 100%;
+      height: 100%;
+      border-top: 1px #4D5462 solid;
+      border-left: 1px #4D5462 solid;
+      border-bottom: 1px #111215 solid;
+      border-right: 1px #111215 solid;
+      vertical-align: middle;
+      .logoAligner{
+        margin-top: 5px;
+      }
+    }
+
+  }
+ }
+  .sectionOffers {
+    height: 80px;
+
+    .scroll{
+      position: relative;
+      width: 100%;
+      height: 120px;
+
+      .offersCell{
+        width: 14.2857142857143%;
+        box-sizing: border-box;
+        float: left;
+        height: 120px;
+        text-align: center;
+        .g-clickable{
+          cursor: pointer;
+        }
+        .offersRow{
+          box-sizing: border-box;
+          height: 40px;
+          text-align: left;
+          .cellBorder{
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            /* position: static; */
+            width: 100%;
+            height: 100%;
+            border-top: 1px #4D5462 solid;
+            border-left: 1px #4D5462 solid;
+            border-bottom: 1px #111215 solid;
+            border-right: 1px #111215 solid;
+            vertical-align: middle;
+            .offersAmount{
+              font-weight:normal;
+              font-size:16px;
+              color: #888;
+              box-sizing: border-box;
+              vertical-align: top;
+              text-align: right;
+              line-height: 40px;
+              padding: 0px 28px 0px 50px;
+              overflow: none;
+              span:after{
+                font-family:FontAwesome;
+                content: "\f158";
+                font-size: 12px;
+              }
+
+            }
+            .bestPrice{
+              font-size: 20px;
+              font-weight: 400;
+              color: #FFF;
+              box-sizing: border-box;
+              vertical-align: top;
+              text-align: right;
+              line-height: 40px;
+              padding: 0px 28px 0px 50px;
+              overflow: none;
+              span:after{
+                font-family:FontAwesome;
+                content: "\f158";
+                font-size: 12px;
+              }
+            }
+
+          }
+
+        }
+      }
+      }
+    }
+
+  }
+
+
 
 
 
