@@ -777,7 +777,7 @@
 </div>
 </div>
 <div class="submit-container">
-    <a href="flightsearch.php" class="submit"><span><span class="label">Искать </span></span></a>
+    <a href="offers.php" class="submit"><span><span class="label">Искать </span></span></a>
 </div>
 </div>
 </div>

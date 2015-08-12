@@ -1913,6 +1913,10 @@ border-bottom: 1px dashed #FFFFFF;
                 content: "\f158";
                 font-size: 12px;
               }
+              a{
+                text-decoration: none;
+                color: #FFF;
+              }
             }
 
           }
@@ -1924,6 +1928,461 @@ border-bottom: 1px dashed #FFFFFF;
 
   }
 
+/* ==========================================================================
+   OFFERS
+   ========================================================================== */
+ol, ul{
+  list-style: outside none none;
+}
+.offers{
+margin: 0 auto;
+  width: 100%;
+  height: auto;
+  .outline(red);
+  background-color: @color-base2;
+
+
+
+  ul.offers-list{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    clear: both;
+
+    li.offers-list-container{
+      margin-top: 10px;
+      min-height: 150px;
+      padding: 0;
+      position: relative;
+      .offers-inner{
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-top-colors: none;
+        background-color: #ffffff;
+        border-collapse: separate;
+        border-color: #cdcdce;
+        border-image: none;
+        border-radius: 8px;
+        border-style: solid solid solid none;
+        border-width: 1px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 1px -1px 1px rgba(0, 0, 0, 0.1);
+        min-height: 150px;
+        overflow: visible;
+        padding: 10px 0 0;
+        position: relative;
+        .company-cell{
+          border: 0 none;
+          margin: 0;
+          padding: 0;
+          position: relative;
+          .company-mid{
+            border: 0 none;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            .company-inner{
+              background-color: #ffffff;
+              border-bottom: 1px dotted #cdcdce;
+              overflow: visible;
+              padding: 9px 0 18px 45px;
+              position: relative;
+
+              h2.offers-company{
+                color: #40454f;
+                display: inline;
+                font-size: 20px;
+                font-weight: bold;
+                padding-right: 20px;
+              }
+
+              p.offers-company-prices{
+                display: inline;
+                font-size: 20px;
+                line-height: 1.333em;
+                margin-bottom: 1em;
+                .offers-company_prices-link{
+                  color: #00bdf4;
+                  cursor: pointer;
+                  font-size: 12px;
+                  text-transform: uppercase;
+                }
+              }
+              .offers-controls {
+                bottom: 8px;
+                position: absolute;
+                right: 45px;
+                .offers-sum_block {
+                  float: right;
+                  .offers-bonus {
+                    float: left;
+                    text-align: center;
+                    .offers-bonus-currency_bonus {
+
+                      .offers-bonus-count_wrap {
+                        background: rgba(0, 0, 0, 0) url("../img/results.png") no-repeat scroll 0 -17px;
+                        color: #ffffff;
+                        cursor: default;
+                        display: inline-block;
+                        height: 50px;
+                        margin-left: auto;
+                        width: 50px;
+                        .b-offers-bonus-count {
+                          color: #ffffff;
+                          font-size: 1em;
+                          font-weight: bold;
+                          line-height: 50px;
+                          text-shadow: 0 -1px 0 #334f00;
+                        }
+                      }
+                    }
+                  }
+                  .button-complete {
+                    background: rgba(0, 0, 0, 0) url("../img/results.png") no-repeat scroll 0 -69px;
+                    cursor: pointer;
+                    float: left;
+                    height: 48px;
+                    margin: 0 0 0 15px;
+                    position: relative;
+                    text-align: center;
+                    width: 248px;
+                    .b-button-icon_purchase{
+                      left: 23px;
+                      position: absolute;
+                      top: 12px;
+                    }
+
+                    .b-results-icons{
+                      background: url("../img/results-sprite.png?2c0eae8d") no-repeat -221px -51px;
+                      display: inline-block;
+                      height: 23px;
+                      width: 25px;
+                    }
+                    .button-content-link{
+                      background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+                      border: medium none;
+                      border-collapse: separate;
+                      color: #ffffff;
+                      cursor: pointer;
+                      display: block;
+                      font: bold 30px Arial,Helvetica,sans-serif;
+                      height: 36px;
+                      outline: medium none;
+                      overflow: visible;
+                      padding: 7px 0 1px 33px;
+                      text-align: center;
+                      text-shadow: 0 -1px 1px #005577;
+                      a{
+                        text-decoration: none;
+                      }
+                      .b-price{
+                        color: #ffffff;
+                        font: bold 30px Arial,Helvetica,sans-serif;
+                      }
+                      .b-price:after{
+                        font-family: FontAwesome;
+                        content: "\f158";
+                        font-size: 24px;
+                        color: #fff;
+                        padding-left:5px;
+                      }
+                    }
+                  }
+                }
+
+              }
+              .offers-extended_info{
+                bottom: -33px;
+                height: 0;
+                overflow: visible;
+                position: absolute;
+                right: 35px;
+                width: 255px;
+                .offers-options{
+                  color: #828996;
+                  font-size: 12px;
+                  .flight_offers-info-text{
+                    color: #0078c7;
+                  }
+                  .offers-important-msg{
+                    margin-top: 10px;
+                  }
+                }
+                .offers-notes{
+                  line-height: 22px;
+                  margin-top: 2px;
+                  position: relative;
+
+                  .flight_offers-notes_button{
+                    color: #6f7683;
+                    cursor: pointer;
+                    display: inline-block;
+                    font-size: 12px;
+                    margin-right: 4px;
+                    position: relative;
+                    white-space: nowrap;
+
+                    .b-icon{
+                      display: inline-block;
+                      margin-right: 2px;
+                      padding-top: 1px;
+                      vertical-align: middle;
+                    }
+
+                    .icon-offers-note-luggage{
+                      background: url("../img/results-sprite.png") no-repeat -359px -64px;
+                      width: 11px;
+                      height: 18px;
+                    }
+                    .icon-offers-note-return{
+                      background: url("../img/results-sprite.png") no-repeat -267px -142px;
+                      width: 15px;
+                      height: 18px;
+                    }
+                    .icon-offers-note-visa{
+                      background: url("../img/results-sprite.png") no-repeat -378px -23px;
+                      width: 16px;
+                      height: 18px;
+                    }
+                    .icon-offers-note-time{
+                      background: url("../img/results-sprite.png") no-repeat -273px -122px;
+                      width: 16px;
+                      height: 18px;
+                    }
+
+                    .flight_offers-button_text{
+                      border-bottom: 1px dashed #6f7683;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .offers-directions-cell{
+          margin: 0 320px 0 10px;
+          overflow: visible;
+          position: relative;
+          table{
+            border-collapse: collapse;
+            border-spacing: 0;
+          }
+
+          .flight_offers-direction--last{
+            padding-bottom: 12px;
+          }
+          .flight_offers-direction{
+            overflow: visible;
+            position: relative;
+            .flight_offers-flight .flight_1{
+
+            }
+            .flight_offers-table{
+              position: relative;
+              width: 100%;
+              color: #00bdf4;
+              .offers-direction_header, .offers-flight_path{
+                padding-left: 27px;
+                padding-top: 7px;
+
+              }
+              .offers-flight_path{
+                font-size: 20px;
+                margin: 0 0 3px 2px;
+
+                .offers-flight_path-city_name{
+                  display: inline;
+                  font-size: 20px;
+                  margin: 0 5px;
+                  white-space: nowrap;
+                  .offers-flight_path-airport_name{
+                    border-bottom: 1px solid #6f7683;
+                    color: #6f7683;
+                    cursor: pointer;
+                    font-size: 0.6em;
+                    font-weight: 400;
+                    padding: 20px 0 0;
+                    text-decoration: none;
+                    white-space: nowrap;
+                  }
+
+                }
+
+              }
+
+              .offers-direction_segments{
+
+                .flight-offer {
+                  padding: 10px 5px 10px 5px;
+                  background: #fff;
+                }
+                .selected {
+                    background: #eeeeee;
+                    background: -moz-linear-gradient(top, #eeeeee 0%, #F2F2F2 100%); /* firefox */
+                    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #F2F2F2)); /* webkit */
+                    background: -o-linear-gradient(top, #eeeeee 0%, #F2F2F2 100%); /* opera */
+                    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#F2F2F2', GradientType=0);
+                    zoom: 1; /* ie */
+                    background: linear-gradient(top, #eeeeee 0%, #F2F2F2 100%); /* native css3 */
+
+
+                }
+
+                .flight-offer-item {
+                  width: 100%;
+                  cursor: pointer;
+                  border-bottom: 1px dotted #b8b8b8;
+                  .flight_offers-table{
+                    width: 100%;
+                    border-collapse: collapse;
+                    table-layout: fixed;
+
+                    .flight_offers-cell{
+                      padding: 7px 7px 7px;
+                      vertical-align: top;
+
+                      .offers-flight_info{
+                        word-wrap: break-word;
+                        width: 100%;
+
+                      }
+                      /*-----Для всех offers-flight_info-simple_text-------------*/
+                      .class_icon-icons{
+                        margin-top: -4px;
+                        vertical-align: middle;
+                      }
+                      .class_icon-e{
+                        height: 15px;
+                        width: 14px;
+                        background: url("../img/class_icon.png") no-repeat -40px 0;
+                        display: inline-block;
+                      }
+                      .offers-flight_info-simple_text {
+                        font-size: 14px;
+                        color: #6F7683;
+                        margin: 8px 0 11px 0;
+
+                      }
+                      .offers-flight_info h2{
+                        font-size: 1.333em;
+                        font-weight: 400;
+                        line-height: 0.9;
+                        color: #2d3038;
+                        margin-bottom: 4px;
+                        margin-top: 0;
+                      }
+                      .offers-flight_info h3{
+                        font-weight: 400;
+                        font-size: 14px;
+                        padding-bottom: 1px;
+                        margin: 0;
+                      }
+
+                      .offers-flight_info h4{
+                        font-size: 14px;
+                        font-weight: normal;
+                        margin-top: 2px;
+                        color: #2d3038;
+                        margin-bottom: 4px;
+                      }
+                      .offers-flight_info h5{
+                        color: #2d3038;
+                        margin-bottom: 4px;
+                        font-size: 12px;
+                        font-weight: bold;
+                        margin-top: 5px;
+                      }
+
+                      /*-----DEPARTURE-------------*/
+
+
+                      .offers-flight_info--departure {
+                        padding-left: 54px;
+                        display: block;
+
+                        .flight_offer-segment_header {
+                          padding-bottom: 1px;
+                          font-size: 14px;
+                          font-weight: normal;
+                        }
+
+
+                        .flight_1 .selected .b-icon.b-offers_icon {
+                          margin-top: -1px;
+                        }
+                        .b-icon.b-offers_icon {
+                          height: 19px;
+                          margin-left: -26px;
+                          margin-top: 0;
+                          width: 22px;
+
+                        }
+                        .b-icon.b-offers_icon {
+                          background: rgba(0, 0, 0, 0) url("../img/icons.png") no-repeat scroll -86px -22px;
+                        }
+
+                        .selected.b-icon.b-offers_icon {
+                          background: rgba(0, 0, 0, 0) url("../img/icons.png") no-repeat scroll 0 0 !important;
+                        }
+
+
+
+                        .b-icon.b-offers_icon {
+                          float: left;
+                        }
+                        .b-icon {
+                          background: #cccccc none repeat scroll 0 0;
+                          display: block;
+                          height: 16px;
+                          width: 16px;
+                        }
+                      }
+
+                      /*-----FLIGHT-------------*/
+                      .offers-flight_info--flight{
+                        position: relative;
+
+                      }
+                     }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+.flight_offers-direction .offers-edge_perforation_left{
+  left: -10px;
+}
+.offers-edge_marker{
+  border-radius: 8px 0 0 8px;
+  bottom: 0;
+  left: -10px;
+  overflow: visible;
+  position: absolute;
+  top: 0;
+  width: 8px;
+  background-color: #00c2ea;
+}
+.offers-edge_perforation{
+  display: block;
+  height: 16px;
+  margin-top: -8px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.offers-edge_perforation_left{
+  background: rgba(0, 0, 0, 0) url("../img/index.png") no-repeat scroll 0 0;
+  left: -4px;
+  width: 14px;
+}
 
 
 
