@@ -11,10 +11,10 @@
                 <li><a href="#">Авиабилеты</a></li>
                 <li><a href="#">Отели</a></li>
                 <li><a href="#">Прокат авто</a></li>
-                <li><a href="#">Куда поехать</a></li>
-                <li><a href="#">Жилье в аренду</a></li>
-                <li><a href="#">Блог</a></li>
             </ul>
+        </div>
+        <div class="login">
+            <span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-user fa-stack-1x "></i></span><a href="#"><p>Логин</p></a>
         </div>
     </div>
 </div>

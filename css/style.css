@@ -80,14 +80,14 @@
 }
 .header_flightsearch .menu {
   width: auto;
-  height: 90px;
+  height: 55px;
   background-color: #ffffff;
   margin: 0 auto;
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
 .header_flightsearch .menu .menuLogo {
   width: 26%;
-  height: 90px;
+  height: 55px;
   background: url("../img/logo.jpg") no-repeat scroll center center;
   float: left;
   overflow: hidden;
@@ -95,11 +95,11 @@
   position: relative;
 }
 .header_flightsearch .menu .menuLink {
-  float: right;
-  width: 74%;
+  float: left;
+  width: 65%;
   position: relative;
   z-index: 3;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 .header_flightsearch .menu .menuLink ul {
   margin: 0 auto ;
@@ -115,7 +115,7 @@
 }
 .header_flightsearch .menu .menuLink ul li a {
   text-decoration: none;
-  font: 19.5px PFBeauSansPro-Regular, sans-serif;
+  font: 18px PFBeauSansPro-Regular, sans-serif;
   color: #555555;
 }
 .header_flightsearch .menu .menuLink ul li a:hover {
@@ -129,7 +129,7 @@
   color: #bb2449;
 }
 .header {
-  height: 760px;
+  height: 683px;
   width: 100%;
   margin: 0 auto;
   background: url("../img/headerbg.jpg") no-repeat;
@@ -144,19 +144,19 @@
   top: 0;
   width: 35%;
   min-width: 320px;
-  height: 132px;
+  height: 55px;
   z-index: 1;
 }
 .header .menu {
   width: auto;
-  height: 132px;
+  height: 55px;
   background-color: #ffffff;
   margin: 0 auto;
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
 .header .menu .menuLogo {
   width: 26%;
-  height: 132px;
+  height: 55px;
   background: url("../img/logo.jpg") no-repeat scroll center center;
   float: left;
   overflow: hidden;
@@ -164,11 +164,11 @@
   position: relative;
 }
 .header .menu .menuLink {
-  float: right;
-  width: 74%;
+  float: left;
+  width: 65%;
   position: relative;
   z-index: 3;
-  padding-top: 72px;
+  padding-top: 16px;
 }
 .header .menu .menuLink ul {
   margin: 0 auto ;
@@ -196,6 +196,42 @@
   -o-transition: all 0.35s ease-out;
   transition: all 0.35s ease-out;
   color: #bb2449;
+}
+.login {
+  margin-top: 16px;
+}
+.login p {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: sub;
+}
+.login a {
+  font: 18px PFBeauSansPro-Regular, sans-serif;
+  color: #555555;
+  text-decoration: none;
+  border-bottom: 1px dotted #555555;
+  padding-bottom: 2px;
+}
+.login a:hover {
+  border: none;
+  outline: none;
+}
+.login .fa-stack-2x {
+  font-size: 1.7em;
+}
+.login .fa-circle-thin {
+  font-size: 1.3em;
+}
+.login .fa-user {
+  font-size: .8em;
+  line-height: 30px;
+}
+.login .fa-stack {
+  vertical-align: top;
+}
+.login i {
+  color: #999;
 }
 /*
 --- Search
