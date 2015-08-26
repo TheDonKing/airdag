@@ -56,8 +56,17 @@
  --- Меню
   */
 }
+.header_flightsearch .mui-searchbox .tabs {
+  display: none;
+}
+.header_flightsearch .mui-searchbox {
+  height: 120px;
+}
+.header_flightsearch .mui-searchbox > .container {
+  padding-top: 20px;
+}
 .header_flightsearch .search {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .header_flightsearch .lineLeft {
   position: absolute;
@@ -66,20 +75,20 @@
   top: 0;
   width: 35%;
   min-width: 320px;
-  height: 132px;
+  height: 100px;
   z-index: 1;
 }
 .header_flightsearch .menu {
   width: auto;
-  height: 132px;
-  background-color: rgba(255, 255, 255, 0.7);
+  height: 90px;
+  background-color: #ffffff;
   margin: 0 auto;
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
 .header_flightsearch .menu .menuLogo {
   width: 26%;
-  height: 132px;
-  background: url("../img/logo.png") no-repeat scroll center center;
+  height: 90px;
+  background: url("../img/logo.jpg") no-repeat scroll center center;
   float: left;
   overflow: hidden;
   z-index: 2;
@@ -90,7 +99,7 @@
   width: 74%;
   position: relative;
   z-index: 3;
-  padding-top: 72px;
+  padding-top: 30px;
 }
 .header_flightsearch .menu .menuLink ul {
   margin: 0 auto ;
@@ -141,14 +150,14 @@
 .header .menu {
   width: auto;
   height: 132px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #ffffff;
   margin: 0 auto;
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
 .header .menu .menuLogo {
   width: 26%;
   height: 132px;
-  background: url("../img/logo.png") no-repeat scroll center center;
+  background: url("../img/logo.jpg") no-repeat scroll center center;
   float: left;
   overflow: hidden;
   z-index: 2;
@@ -195,7 +204,7 @@
   clear: both;
 }
 .search {
-  height: 150px;
+  height: 120px;
   margin-top: 476px;
 }
 /*
