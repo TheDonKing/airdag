@@ -11,6 +11,7 @@
                 <li><a href="#">Авиабилеты</a></li>
                 <li><a href="#">Отели</a></li>
                 <li><a href="#">Прокат авто</a></li>
+                <li><a href="#">ЖД билеты</a></li>
             </ul>
         </div>
         <div class="login">

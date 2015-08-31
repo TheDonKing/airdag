@@ -166,6 +166,7 @@
 
     }
   }
+
 }
 
 .header{
@@ -1097,6 +1098,26 @@ border-bottom: 1px dashed #FFFFFF;
     float: left;
     max-width: 1176px;
     font-family: Roboto, Arial, Geneva, Helvetica, sans-serif;
+
+  }
+  .and_back{
+    width: 100%;
+    height:50px;
+    overflow: hidden;
+    p{
+      width: 50%;
+      display: block;
+      margin: 0;
+      padding: 0;
+      float: right;
+      .font-base-regular(24px);
+
+    }
+    a{
+      color: #ffffff;
+      text-decoration: none;
+
+    }
   }
 
   .e_ticket_wrapper{
@@ -1109,6 +1130,7 @@ border-bottom: 1px dashed #FFFFFF;
     border-radius: 12px;
     padding: 11px 0px 12px;
     position: relative;
+
   }
 
   .e_ticket_block+.e_ticket_block{
@@ -1187,7 +1209,32 @@ border-bottom: 1px dashed #FFFFFF;
     padding-right: 4%;
     padding-bottom: 10px;
     vertical-align: top;
+
+
   }
+  .priceair{
+    .font-base-bold(30px);
+    a{
+      text-decoration: none;
+      color: #fff;
+      border-bottom: 1px dashed #fff;
+      &:hover{
+        border: none;
+      }
+    }
+  }
+  .priceair2{
+    .font-base-bold(30px);
+    a{
+      text-decoration: none;
+      color:@color-base2;
+      border-bottom: 1px dashed @color-base2;
+      &:hover{
+        border: none;
+      }
+    }
+  }
+
 
   .blue .e_airticket_title
   {

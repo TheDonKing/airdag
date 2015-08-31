@@ -1044,6 +1044,23 @@
   max-width: 1176px;
   font-family: Roboto, Arial, Geneva, Helvetica, sans-serif;
 }
+.flighsearch .and_back {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+}
+.flighsearch .and_back p {
+  width: 50%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  float: right;
+  font: 24px PFBeauSansPro-Regular, sans-serif;
+}
+.flighsearch .and_back a {
+  color: #ffffff;
+  text-decoration: none;
+}
 .flighsearch .e_ticket_wrapper {
   margin-bottom: 42px;
 }
@@ -1115,6 +1132,28 @@
   padding-right: 4%;
   padding-bottom: 10px;
   vertical-align: top;
+}
+.flighsearch .priceair {
+  font: 30px PFBeauSansPro-Bold, sans-serif;
+}
+.flighsearch .priceair a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px dashed #fff;
+}
+.flighsearch .priceair a:hover {
+  border: none;
+}
+.flighsearch .priceair2 {
+  font: 30px PFBeauSansPro-Bold, sans-serif;
+}
+.flighsearch .priceair2 a {
+  text-decoration: none;
+  color: #042656;
+  border-bottom: 1px dashed #042656;
+}
+.flighsearch .priceair2 a:hover {
+  border: none;
 }
 .flighsearch .blue .e_airticket_title {
   border-bottom: 1px dashed #fff;
