@@ -1,0 +1,62 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.airport-ticket {
+  margin-bottom: 50px;
+  margin-right: 10px;
+  vertical-align: top;
+  overflow: hidden;
+  float: left;
+  border: none;
+  padding: 5px;
+  width: 48%;
+  height: auto;
+  background-color: #599de2;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.airport-ticket .airport-ticket-table table {
+  width: 100%;
+  color: #000;
+  font: 1em PFBeauSansPro-Regular, sans-serif;
+}
+.airport-ticket .airport-ticket-table table th {
+  font-weight: normal;
+  border: none;
+}
+.airport-ticket .airport-ticket-table table tr {
+  height: 35px;
+}
+.airport-ticket .airport-ticket-table table tr td {
+  border: 1px dashed #2165ff;
+  text-align: center;
+}
+.airport-ticket .air-price {
+  color: #fff;
+}
+.airport-ticket .air-price {
+  color: #fff;
+}
+.white {
+  background-color: #fff !important;
+}
+.white .air-price {
+  color: #000;
+}
+.and_back a {
+  border-bottom: 1px dashed #fff;
+  text-decoration: none;
+  color: #fff;
+}
+.and_there a {
+  border-bottom: 1px dashed #599de2;
+  text-decoration: none;
+  color: #599de2;
+}
+.flighsearch .row {
+  padding: 15px;
+}

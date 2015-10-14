@@ -7,6 +7,7 @@ $price3 = 13500;
 <html class="no-js" lang="ru">
     <head>
        <?php include_once ("block/head.php"); ?>
+        <link rel="stylesheet" href="css/airport-ticket.css">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -18,6 +19,7 @@ $price3 = 13500;
     <?php include_once ("block/menu.php"); ?>
         <div class="both"></div>
     <?php include_once ("block/searchbox.php"); ?>
+
     </div>
     <?php include_once ("block/flight-section.php"); ?>
     <div class="flighsearch">

@@ -1,0 +1,62 @@
+@import "elements.less";
+.outline(@color){
+  outline:1px solid @color;
+}
+
+.airport-ticket{
+  margin-bottom: 50px;
+  margin-right: 10px;
+  vertical-align: top;
+  overflow: hidden;
+  float: left;
+  border:none;
+  padding: 5px;
+  width: 48%;
+  height:auto;
+  background-color: #599de2;
+  .rounded(10px);
+  .airport-ticket-table{
+    table{
+      width: 100%;
+      color: #000;
+      font:1em PFBeauSansPro-Regular,sans-serif;
+      th{
+        font-weight: normal;
+        border: none;
+      }
+      tr{
+        height:35px;
+        td{
+          border:1px dashed #2165ff;
+          text-align:center;
+        }
+      }
+    }
+  }
+  .air-price{
+    color: #fff;
+  }
+  .air-price{
+    color: #fff;
+  }
+
+}
+.white{
+  background-color: #fff !important;
+  .air-price{
+    color: #000;
+  }
+}
+.and_back a{
+  border-bottom: 1px dashed #fff;
+  text-decoration: none;
+  color: #fff;
+}
+.and_there a{
+  border-bottom: 1px dashed #599de2;
+  text-decoration: none;
+  color: #599de2;
+}
+.flighsearch .row{
+  padding: 15px;
+}

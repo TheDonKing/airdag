@@ -1,0 +1,290 @@
+@import "elements.less";
+//Шрифты по умолчанию
+.font-base-bold(@size){
+  font:@size PFBeauSansPro-Bold, sans-serif;
+}
+.font-base-regular(@size){
+  font: @size PFBeauSansPro-Regular, sans-serif;
+}
+.font-base-italic(@size){
+  font:@size PFBeauSansPro-Italic, sans-serif;
+}
+.font-base-light(@size){
+  font:@size PFBeauSansPro-Light, sans-serif;
+}
+.outline(@color){
+  outline:0px solid @color;
+}
+@color-base: #bb2449 ; // Розовый цвет по умолчанию
+@color-base2: #042656 ; // Синий цвет по умолчанию
+
+.e_wrapper{
+    width: 100%;
+    float: left;
+    max-width: 1176px;
+    font-family: Roboto, Arial, Geneva, Helvetica, sans-serif;
+
+}
+.and_back{
+    width: 100%;
+    height:50px;
+    overflow: hidden;
+p{
+    width: 50%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: right;
+.font-base-regular(24px);
+
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+}
+
+.e_ticket_wrapper{
+    margin-bottom: 42px;
+}
+
+.e_ticket_block{
+    width: 49%;
+    float: left;
+    border-radius: 12px;
+    padding: 11px 0px 12px;
+    position: relative;
+
+}
+
+.e_ticket_block+.e_ticket_block{
+    float: right;
+}
+
+.blue{
+    background: #599de2;
+    border: 1px solid #599de2;
+}
+
+.white{
+    background: #fff;
+    border: 1px solid #2b436c;
+}
+
+.e_ticket_block.blue{
+    color: #fff;
+}
+
+.e_ticket_block .e_airline_name,
+.e_ticket_block .e_airticket_title,
+.e_ticket_block .e_airticket_info{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+}
+
+.e_ticket_block .e_airticket_info{
+    margin-top: 12px;
+}
+
+.blue .e_airline_name{
+    border-bottom: 1px solid #fff;
+}
+
+.white .e_airline_name{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.e_ticket_block .e_airline_name p,
+.e_ticket_block .e_airticket_title p:first-child{
+    padding-left:190px;
+
+}
+
+.e_ticket_block .e_airticket_title p{
+    float: left;
+    width: auto;
+
+}
+
+
+.e_ticket_block .e_airticket_info table{
+    margin-left: 2.2%;
+    text-align: left;
+    color: #fff;
+    line-height: 1.2;
+    font-size: 14px;
+}
+
+.white .e_airticket_info table{
+
+    color: #333333;
+}
+
+.e_ticket_block .e_airticket_info table th{
+    font-weight: 300;
+    padding-bottom: 22px;
+}
+
+.e_ticket_block .e_airticket_info table th:first-child,
+.e_ticket_block .e_airticket_info table th:last-child{
+    width: 140px;
+}
+
+.e_ticket_block .e_airticket_info table td{
+    padding-right: 4%;
+    padding-bottom: 10px;
+    vertical-align: top;
+
+
+}
+.priceair{
+.font-base-bold(30px);
+a{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px dashed #fff;
+&:hover{
+     border: none;
+ }
+}
+}
+.priceair2{
+.font-base-bold(30px);
+a{
+    text-decoration: none;
+    color:@color-base2;
+    border-bottom: 1px dashed @color-base2;
+&:hover{
+     border: none;
+ }
+}
+}
+
+
+.blue .e_airticket_title
+{
+    border-bottom: 1px dashed #fff;
+    padding: 5px 0;
+}
+
+.white .e_airticket_title{
+    border-bottom: 1px dashed #B8B8B8;
+    padding: 5px 0;
+    color: #18406f;
+}
+
+.e_circle{
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    position: absolute;
+    top: 21px;
+    right: -13px;
+}
+
+.blue .e_circle{
+    background: #042656;
+}
+
+.white .e_circle{
+    background: #042656;
+
+}
+
+/**/
+
+.e_form_block{
+    width: 42%;
+    float: left;
+    background: #0064CE;
+    padding: 25px 48px 32px 36px;
+    padding: 25px 4% 32px 3%;
+    color: #fff;
+    margin: 0 15px 15px 0;
+}
+
+.e_form_block:nth-child(2n){
+    margin-right: 0;
+    float: right;
+}
+
+.e_form_block input{
+    width: 100%;
+    max-width: 125px;
+    height: 20px;
+    padding-left: 5px;
+    color: #76838f;
+    border: none;
+}
+
+.e_form_block td:first-child input{
+    max-width: 90px;
+}
+
+.e_form_block input[name="surname"]{
+    width: 100%;
+    max-width: 140px;
+}
+
+.e_form_block input[type="date"]{
+    color: #76838f;
+    font-size: 13px;
+}
+
+.e_form_block table{
+    color: #fff;
+    font-size: 13px;
+}
+
+.e_form_block table td{
+    padding-right: 2.4%;
+    padding-bottom: 10px;
+}
+
+.e_form_blockinput[type=radio]{
+    background: red;
+}
+
+.e_form_block input[type="radio"]{
+    display:none;
+}
+
+.e_form_block input[type="radio"] + label.male{
+    height: 22px;
+    width: 22px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    background:url(../img/flightsearch/male.png) 0 0 no-repeat;
+    margin-right: 10px;
+}
+
+.e_form_block input[type="radio"]:checked + label.male{
+    background:url(../img/flightsearch/male.png) 0px -62px no-repeat;
+    height: 22px;
+    width: 22px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
+
+.e_form_block input[type="radio"] + label.female{
+    height: 22px;
+    width: 17px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    background:url(../img/flightsearch/female.png) 0 0 no-repeat;
+}
+
+.e_form_block input[type="radio"]:checked + label.female{
+    background:url(../img/flightsearch/female.png) 0px -60px no-repeat;
+    height: 22px;
+    width: 17px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
+
+.e_insurance{
+    width: 49%
+;float: left;
+}
