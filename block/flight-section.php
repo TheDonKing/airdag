@@ -2,11 +2,6 @@
 <div class="flight-section">
     <div class="row">
         <div class="sectionInner">
-            <div class="sectionTitle">
-                    <span>
-                       7 Предложений без пересадок
-                    </span>
-            </div>
             <p>Туда</p>
             <div class="sectionLogos">
                 <div class="sectionScrollLogos">
@@ -178,11 +173,6 @@
 <div class="flight-section">
     <div class="row">
         <div class="sectionInner">
-            <div class="sectionTitle">
-                    <span>
-                       7 Предложений без пересадок
-                    </span>
-            </div>
             <p>Обратно</p>
             <div class="sectionLogos">
                 <div class="sectionScrollLogos">

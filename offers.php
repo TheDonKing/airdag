@@ -18,7 +18,7 @@ $price3 = 13500;
     <div class="header_flightsearch">
     <?php include_once ("block/menu.php"); ?>
         <div class="both"></div>
-    <?php include_once ("block/searchbox.php"); ?>
+    <?php include_once ("block/searchbox_offers.php"); ?>
 
     </div>
     <?php include_once ("block/flight-section.php"); ?>

@@ -68,6 +68,9 @@
 .header_flightsearch .search {
   margin-top: 0px;
 }
+.header_flightsearch .forms {
+  margin-top: 0 !important;
+}
 .header_flightsearch .lineLeft {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.7);
