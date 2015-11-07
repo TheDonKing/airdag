@@ -99,7 +99,7 @@
 }
 .header_flightsearch .menu .menuLink {
   float: left;
-  width: 65%;
+  width: 61%;
   position: relative;
   z-index: 3;
   padding-top: 15px;
@@ -201,7 +201,7 @@
   color: #bb2449;
 }
 .login {
-  margin-top: 16px;
+  margin-top: 4px;
 }
 .login p {
   padding: 0;
@@ -210,7 +210,7 @@
   vertical-align: sub;
 }
 .login a {
-  font: 18px PFBeauSansPro-Regular, sans-serif;
+  font: 16px PFBeauSansPro-Regular, sans-serif;
   color: #555555;
   text-decoration: none;
   border-bottom: 1px dotted #555555;
@@ -1021,14 +1021,7 @@
 .footer .footerLink a:hover {
   border-bottom: 1px dashed #FFFFFF;
 }
-/*
--- Стили для Flighsearch
-*/
 .flighsearch {
-  height: auto;
-  background-color: #042656;
-  padding: 15px;
-  /*ozon*/
   /* <!-- AB_AlfaRedisign */
   /* AB_AlfaRedisign --> */
   /*
@@ -1043,18 +1036,27 @@
   margin: 12px 4px 0 0px;
   padding: 0 74px 0 0;
   width: auto;
-  background: #ffffff url('../img/flightsearch/indatech.png') right center no-repeat;
   border-top: 2px solid #e6e6e6;
   border-right: 5px solid #e6e6e6;
   border-bottom: 2px solid #e6e6e6;
   border-left: 10px solid #e6e6e6;
+  overflow: hidden;
 }
 .flighsearch #ins_inner {
   background-color: #fff;
-  padding: 0 213px 0 5px;
+  padding: 0 0px 0 5px;
   min-height: 131px;
   position: relative;
   overflow: hidden;
+  float: left;
+  width: 50%;
+}
+.flighsearch .ins_inner_p {
+  float: right;
+  width: 45%;
+}
+.flighsearch .ins_inner_p p {
+  font-size: 12px;
 }
 .flighsearch #ins_content {
   float: left;
@@ -1219,8 +1221,8 @@
   top: 0;
 }
 .flighsearch .trip-cancellation-insurance-wrapper {
-  margin: 20px 5px 0 -22px;
-  padding: 0 5px 0 23px;
+  margin: 0px 5px 0 0px;
+  padding: 0 5px 0 0px;
   width: auto;
   background: #FFFFFF;
   box-shadow: 1px 1px 2px 0 #DFDFDF;
@@ -1243,17 +1245,21 @@
   padding: 5px 2px 2px 0;
   overflow: hidden;
 }
+.flighsearch .trip-cancellation-insurance-header p {
+  font-size: 14px;
+}
 .flighsearch .trip-cancellation-insurance-header h2 {
-  background: url('../img/flightsearch/alfa_logo.png') 100% 1px no-repeat;
+  background: url('../img/flightsearch/alfa_logo.png') 100% 11px no-repeat;
   float: left;
   height: 22px;
   padding-right: 115px;
   font-size: 20px;
-  padding-bottom: 11px;
+  padding-bottom: 30px;
+  margin-right: 35px;
 }
 .flighsearch .trip-cancellation-insurance-info {
   border-bottom: 1px solid #e5e5e5;
-  padding: 11px 2px 27px 0;
+  padding: 11px 2px 5px 0;
   width: 100%;
   float: left;
 }
@@ -1282,7 +1288,7 @@
 }
 .flighsearch .trip-cancellation-insurance-agree {
   font: 15px/20px Arial;
-  padding: 15px 0 10px 0;
+  padding: 0px 0 10px 0;
   overflow: hidden;
   width: 100%;
   float: left;
@@ -1311,12 +1317,12 @@
   float: left;
 }
 .flighsearch .e_payment {
-  width: 49%;
+  width: 100%;
   float: right;
   background-color: #FFFFFF;
-  margin-top: 11px;
 }
 .flighsearch .e_title {
+  margin-top: 20px;
   width: 100%;
   float: left;
 }
@@ -1495,19 +1501,14 @@
 /* ==========================================================================
    FLIGHT SEARCH
    ========================================================================== */
+.flight-section:last-child {
+  max-height: 40px !important;
+}
 .flight-section {
+  position: relative;
   width: 100%;
-  min-height: 164px;
   outline: 0px solid red;
-  background: #414752 url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmVyc2lvbj0iMS4xIj4KCTxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgoJCTxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM0YzUzNjEiIC8+CgkJPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMmQzMDM4IiAvPgoJPC9saW5lYXJHcmFkaWVudD4KCTxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOnVybCgjZ3JhZCkiLz4KPC9zdmc+) no-repeat;
-  background: -moz-linear-gradient(top, #4c5361 0%, #2d3038 100%);
-  /* firefox */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4c5361), color-stop(100%, #2d3038));
-  /* webkit */
-  background: -o-linear-gradient(top, #4c5361 0%, #2d3038 100%);
-  /* opera */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c5361', endColorstr='#2d3038', GradientType=0);
-  zoom: 1;
+  background: #414752 no-repeat;
 }
 .flight-section p {
   color: #fff;
@@ -1628,6 +1629,22 @@
 .flight-section .sectionOffers .scroll .offersCell .offersRow .cellBorder .bestPrice a {
   text-decoration: none;
   color: #FFF;
+}
+.flight-section .sectionInner {
+  padding: 0 60px;
+  position: relative;
+}
+.flight-section .sectionInner i {
+  font-size: 36px;
+  color: #fff;
+  position: absolute;
+  top: 60%;
+}
+.flight-section .sectionInner i:nth-child(1) {
+  left: 0;
+}
+.flight-section .sectionInner i:nth-child(2) {
+  right: 0;
 }
 /* ==========================================================================
    OFFERS
@@ -2039,4 +2056,193 @@ ul {
   background: rgba(0, 0, 0, 0) url("../img/index.png") no-repeat scroll 0 0;
   left: -4px;
   width: 14px;
+}
+/*
+-- Стили для Flighsearch
+*/
+.flighsearch {
+  height: auto;
+  background-color: #042656;
+  padding-bottom: 75px;
+  padding-top: 0;
+  /**/
+}
+.flighsearch .e_wrapper {
+  float: left;
+  max-width: 1176px;
+  font-family: Roboto, Arial, Geneva, Helvetica, sans-serif;
+}
+.flighsearch .e_ticket_wrapper {
+  margin-bottom: 42px;
+}
+.flighsearch .e_ticket_block {
+  width: 49%;
+  float: left;
+  border-radius: 12px;
+  padding: 11px 0px 12px;
+  position: relative;
+}
+.flighsearch .e_ticket_block + .e_ticket_block {
+  float: right;
+}
+.flighsearch .blue {
+  background: #599de2;
+  border: 1px solid #599de2;
+}
+.flighsearch .white {
+  background: #fff;
+  border: 1px solid #2b436c;
+}
+.flighsearch .e_ticket_block.blue {
+  color: #fff;
+}
+.flighsearch .e_ticket_block .e_airline_name,
+.flighsearch .e_ticket_block .e_airticket_title,
+.flighsearch .e_ticket_block .e_airticket_info {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+}
+.flighsearch .e_ticket_block .e_airticket_info {
+  margin-top: 12px;
+}
+.flighsearch .blue .e_airline_name {
+  border-bottom: 1px solid #fff;
+}
+.flighsearch .white .e_airline_name {
+  border-bottom: 1px solid #ebebeb;
+}
+.flighsearch .e_ticket_block .e_airline_name p,
+.flighsearch .e_ticket_block .e_airticket_title p:first-child {
+  padding-left: 15px;
+}
+.flighsearch .e_ticket_block .e_airticket_title p {
+  float: left;
+  width: auto;
+  margin-right: 35px;
+}
+.flighsearch .e_ticket_block .e_airticket_info table {
+  margin-left: 2.2%;
+  text-align: left;
+  color: #fff;
+  line-height: 1.2;
+  font-size: 14px;
+}
+.flighsearch .white .e_airticket_info table {
+  color: #333333;
+}
+.flighsearch .e_ticket_block .e_airticket_info table th {
+  font-weight: 300;
+  padding-bottom: 22px;
+}
+.flighsearch .e_ticket_block .e_airticket_info table th:first-child,
+.flighsearch .e_ticket_block .e_airticket_info table th:last-child {
+  width: 140px;
+}
+.flighsearch .e_ticket_block .e_airticket_info table td {
+  padding-right: 4%;
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+.flighsearch .blue .e_airticket_title {
+  border-bottom: 1px dashed #fff;
+  padding: 5px 0;
+}
+.flighsearch .white .e_airticket_title {
+  border-bottom: 1px dashed #B8B8B8;
+  padding: 5px 0;
+  color: #18406f;
+}
+.flighsearch .e_circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  position: absolute;
+  top: 21px;
+  right: -13px;
+}
+.flighsearch .blue .e_circle {
+  background: #042656;
+}
+.flighsearch .white .e_circle {
+  background: #042656;
+}
+.flighsearch .e_form_block {
+  width: 42%;
+  float: left;
+  background: #0064CE;
+  padding: 0px 4% 12px 3%;
+  color: #fff;
+  margin: 0 15px 15px 0;
+}
+.flighsearch .e_form_block:nth-child(2n) {
+  margin-right: 0;
+  float: right;
+}
+.flighsearch .e_form_block input {
+  width: 100%;
+  max-width: 170px;
+  height: 20px;
+  padding-left: 5px;
+  color: #76838f;
+  border: none;
+}
+.flighsearch .e_form_block td:first-child input {
+  max-width: 40px;
+}
+.flighsearch .e_form_block input[name="surname"] {
+  width: 171px;
+  margin-right: 10px ;
+}
+.flighsearch .e_form_block input[type="date"] {
+  color: #76838f;
+  font-size: 13px;
+}
+.flighsearch .e_form_block table {
+  color: #fff;
+  font-size: 13px;
+}
+.flighsearch .e_form_block table td {
+  padding-right: 2.4%;
+  padding-bottom: 10px;
+}
+.flighsearch .e_form_blockinput[type=radio] {
+  background: red;
+}
+.flighsearch .e_form_block input[type="radio"] {
+  display: none;
+}
+.flighsearch .e_form_block input[type="radio"] + label.male {
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  padding: 0 0 0 0px;
+  background: url(../img/flightsearch/male.png) 0 0 no-repeat;
+  margin-right: 10px;
+}
+.flighsearch .e_form_block input[type="radio"]:checked + label.male {
+  background: url(../img/flightsearch/male.png) 0px -62px no-repeat;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  padding: 0 0 0 0px;
+}
+.flighsearch .e_form_block input[type="radio"] + label.female {
+  height: 22px;
+  width: 17px;
+  display: inline-block;
+  padding: 0 0 0 0px;
+  background: url(../img/flightsearch/female.png) 0 0 no-repeat;
+}
+.flighsearch .e_form_block input[type="radio"]:checked + label.female {
+  background: url(../img/flightsearch/female.png) 0px -60px no-repeat;
+  height: 22px;
+  width: 17px;
+  display: inline-block;
+  padding: 0 0 0 0px;
+}
+.flighsearch .e_insurance {
+  background-color: #fff;
+  width: 68%;
+  float: left;
 }

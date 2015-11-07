@@ -161,7 +161,52 @@
     </div>
 
 </div>
+<ul class="options">
 
+    <li class="option _ticketclass">
+        <div class="ui-selectbox ui-state-inline on-init-remove"><div class="ui-invalid-text"></div><select style="display: none;" tabindex="-1" data-inline-label="Prefer" data-inline="true" id="Select2" name="">
+                <option value="ECO">Economy</option>
+                <option value="FLX">Premium Economy</option>
+                <option value="BIZ">Business Class</option>
+                <option value="FST">First Class</option>
+            </select><span class="ui-selectmenu-button ui-widget ui-state-default ui-corner-all" tabindex="-1" id="flights-ticketclass-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="flights-ticketclass-menu" aria-haspopup="true" style="width: 126px;"><span class="ui-selectmenu-label"><span class="ui-selectmenu-pre">Класс:</span> <span class="ui-icon "></span><span class="ui-selectmenu-text">Economy</span></span></span></div>
+
+        <select name="" id="flights-ticketclass" data-inline="true" data-inline-label='Класс:' tabindex="-1" style="display: none;">
+            <option value="ECO">Эконом</option>
+            <option value="FLX">Премиум-эконом</option>
+            <option value="BIZ">Бизнес-класс</option>
+            <option value="FST">Первый класс</option>
+        </select>
+
+    </li>
+
+
+
+    <li class="option">
+        <div class="mui-input-state">
+            <input name="ctl00$Content$ctl02$SearchFormv8$SearchFormFlight$chk_direct" id="chk_direct" tabindex="-1" type="checkbox">
+            <label for="chk_direct">
+                <span class="label">Только прямые</span>
+            </label>
+        </div>
+    </li>
+    <li class="option _triptype">
+        <select name="" id="flights-triptype" data-inline="true" style="display: none;" data-inline-label='Перелет:' tabindex="-1">
+            <option value="1">В одну сторону</option>
+            <option value="2">Туда и обратно</option>
+            <option value="4">Составной маршрут</option>
+        </select>
+        <div class="ui-selectbox ui-state-inline on-init-remove">
+            <div class="ui-invalid-text"></div>
+            <select tabindex="-1" data-inline-label="Trip type:" style="display: none;" data-inline="true" name="">
+                <option value="1">One-way trip</option>
+                <option value="2">Return trip</option>
+                <option value="4">Multiple destinations</option>
+            </select><span class="ui-selectmenu-button ui-widget ui-state-default ui-corner-all" tabindex="-1" id="Span1" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="flights-triptype-menu" aria-haspopup="true" style="width: 157px;"><span class="ui-selectmenu-label"><span class="ui-selectmenu-pre">Перелет:</span> <span class="ui-icon "></span><span class="ui-selectmenu-text">Туда и обратно</span></span></span>
+        </div>
+    </li>
+
+</ul>
 </div>
 <div id="Content_ctl02_SearchFormv8_SearchFormHotel_searchform" class="form _hotels" data-searchform="hotels">
     <div class="inputs">

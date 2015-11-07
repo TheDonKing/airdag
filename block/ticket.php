@@ -80,6 +80,7 @@
                     <td>
                         <input checked='true' type="radio" id="Male" name="gender"/><label class="male" for="Male"></label>
                         <input type="radio" id="Female" name="gender"/><label class="female" for="Female"></label>
+                    </td>
                     <td>
                         <input type="text" name="surname" placeholder="Магомедов">
                     </td>

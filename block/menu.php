@@ -15,7 +15,8 @@
             </ul>
         </div>
         <div class="login">
-            <span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-user fa-stack-1x "></i></span><a href="#"><p>Логин</p></a>
+            <span class="fa-stack fa-lg"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-user fa-stack-1x "></i></span><a href="#"><p>Логин
+                    <br/> и пароль</p></a>
         </div>
     </div>
 </div>

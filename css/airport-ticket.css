@@ -5,16 +5,16 @@
     More info at: http://lesselements.com
   ---------------------------------------------------*/
 .airport-ticket {
-  margin-bottom: 50px;
-  margin-right: 10px;
+  margin-bottom: 15px;
+  margin-right: 2px;
   vertical-align: top;
   overflow: hidden;
   float: left;
   border: none;
-  padding: 5px;
-  width: 47%;
+  padding: 4px;
+  width: 49%;
   height: auto;
-  background-color: #599de2;
+  background-color: #0064ce;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -38,8 +38,8 @@
 .airport-ticket .air-price {
   color: #fff;
 }
-.airport-ticket .air-price {
-  color: #fff;
+.airport-ticket .air-price i {
+  font-size: 16px;
 }
 .white {
   background-color: #fff !important;

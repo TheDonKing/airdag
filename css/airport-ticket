@@ -2,18 +2,20 @@
 .outline(@color){
   outline:1px solid @color;
 }
+@color-base: #bb2449 ; // Розовый цвет по умолчанию
+@color-base2: #042656 ; // Синий цвет по умолчанию
 
 .airport-ticket{
-  margin-bottom: 50px;
-  margin-right: 10px;
+  margin-bottom: 15px;
+  margin-right: 2px;
   vertical-align: top;
   overflow: hidden;
   float: left;
   border:none;
-  padding: 5px;
-  width: 47%;
+  padding: 4px;
+  width: 49%;
   height:auto;
-  background-color: #599de2;
+  background-color: #0064ce;
   .rounded(10px);
   .airport-ticket-table{
     table{
@@ -34,11 +36,12 @@
     }
   }
   .air-price{
-    color: #fff;
+    color:#fff;
+    i{
+      font-size: 16px;
+    }
   }
-  .air-price{
-    color: #fff;
-  }
+
 
 }
 .white{
