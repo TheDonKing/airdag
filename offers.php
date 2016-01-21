@@ -18,13 +18,16 @@ $price3 = 13500;
     <div class="header_flightsearch">
     <?php include_once ("block/menu.php"); ?>
         <div class="both"></div>
+<!--     //Блок фильтра-->
     <?php include_once ("block/searchbox_offers.php"); ?>
 
     </div>
+<!--    //Блок прайса-->
     <?php include_once ("block/flight-section.php"); ?>
     <div class="flighsearch">
         <div class="row">
-            <?php include_once ("block/ticket_1.php"); ?>
+<!--    //Блок билетов-->
+            <?php include_once ("block/ticket.php"); ?>
         </div>
     </div>
 

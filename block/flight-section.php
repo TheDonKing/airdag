@@ -1,7 +1,5 @@
-
 <div class="flight-section">
     <div class="row">
-
         <div class="sectionInner">
             <i class="fa fa-angle-left"></i>
             <i class="fa fa-angle-right"></i>
@@ -184,8 +182,6 @@
                                 <div class="bestPrice"><a href="#a0002"><span><?php echo $price1 ?></span></a></div>
                             </div>
                         </div>
-
-
                     </div>
                     <div class="offersCell">
                         <div class="offersRow">
@@ -193,8 +189,6 @@
                                 <div class="offersAmount"><span><?php echo $price3 ?></span></div>
                             </div>
                         </div>
-
-
                     </div>
                     <div class="offersCell">
                         <div class="offersRow">
@@ -202,8 +196,6 @@
                                 <div class="offersAmount"><span><?php echo $price1 ?></span></div>
                             </div>
                         </div>
-
-
                     </div>
                     <div class="offersCell">
                         <div class="offersRow">
@@ -211,8 +203,6 @@
                                 <div class="offersAmount"><span><?php echo $price2 ?></span></div>
                             </div>
                         </div>
-
-
                     </div>
                     <div class="offersCell">
                         <div class="offersRow">
@@ -220,8 +210,6 @@
                                 <div class="offersAmount"><span><?php echo $price3 ?></span></div>
                             </div>
                         </div>
-
-
                     </div>
                     <div class="offersCell">
                         <div class="offersRow">
@@ -229,8 +217,6 @@
                                 <div class="offersAmount"><span><?php echo $price2 ?></span></div>
                             </div>
                         </div>
-
-
                     </div>
                     <div class="offersCell">
                         <div class="offersRow">

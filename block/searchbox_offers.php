@@ -33,9 +33,7 @@
             </div>
             <div class="input _dates">
                 <div class="container">
-
                     <div class="input _date-depart">
-
                         <div class="ui-calendar">
                             <div class="ui-invalid-text on-init-remove">null</div>
 								<span class="label  on-init-remove">
@@ -52,11 +50,8 @@
                             <input name="ctl00$Content$ctl02$SearchFormv8$SearchFormFlight$InputDepart" type="text" id="Content_ctl02_SearchFormv8_SearchFormFlight_InputDepart" data-type="calendar" readonly="" />
                         </div>
                     </div>
-
                     <div class="input _date-return">
-
                         <div class="ui-calendar">
-
                             <div class="ui-invalid-text on-init-remove">null</div>
 								<span class="label  on-init-remove">
 									<span class="day">
@@ -75,9 +70,6 @@
                     </div>
                 </div>
             </div>
-            <!--
-            <div class="input _passengers on-init-remove"><div id="ui-id-7" class="ui-paxselect-button" tabindex="0"><span class="ui-paxselect-label">3 passengers</span></div></div>
-            -->
             <div class="input _passengers">
                 <div id="flights-passengers">
                 </div>
@@ -85,8 +77,6 @@
             </div>
         </div>
     </div>
-
-
     <div id="Content_ctl02_SearchFormv8_SearchFormFlight_rptMultiSegments_SegmentRowMulti_0" class="inputs _multi" returnbound="false" style="display:none;">
         <div class="remove-trip" style="display: none"></div>
         <div class="container">
@@ -120,7 +110,6 @@
             </div>
         </div>
     </div>
-
     <div id="Content_ctl02_SearchFormv8_SearchFormFlight_rptMultiSegments_SegmentRowMulti_1" class="inputs _multi" returnbound="false" style="display:none;">
         <div class="remove-trip" style="display: none"></div>
         <div class="container">
@@ -154,15 +143,12 @@
             </div>
         </div>
     </div>
-
-
     <div id="Content_ctl02_SearchFormv8_SearchFormFlight_NewSegmentRow" class="inputs _newtrip" style="display:none;">
         <div class="add-trip"><span class="label">Добавить еще перелет</span></div>
     </div>
 
 </div>
 <ul class="options">
-
     <li class="option _ticketclass">
         <div class="ui-selectbox ui-state-inline on-init-remove"><div class="ui-invalid-text"></div><select style="display: none;" tabindex="-1" data-inline-label="Prefer" data-inline="true" id="Select2" name="">
                 <option value="ECO">Economy</option>
@@ -179,9 +165,6 @@
         </select>
 
     </li>
-
-
-
     <li class="option">
         <div class="mui-input-state">
             <input name="ctl00$Content$ctl02$SearchFormv8$SearchFormFlight$chk_direct" id="chk_direct" tabindex="-1" type="checkbox">
@@ -205,7 +188,6 @@
             </select><span class="ui-selectmenu-button ui-widget ui-state-default ui-corner-all" tabindex="-1" id="Span1" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="flights-triptype-menu" aria-haspopup="true" style="width: 157px;"><span class="ui-selectmenu-label"><span class="ui-selectmenu-pre">Перелет:</span> <span class="ui-icon "></span><span class="ui-selectmenu-text">Туда и обратно</span></span></span>
         </div>
     </li>
-
 </ul>
 </div>
 <div id="Content_ctl02_SearchFormv8_SearchFormHotel_searchform" class="form _hotels" data-searchform="hotels">
